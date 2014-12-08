@@ -1,7 +1,4 @@
 
-// LEGENDE
-$mod correspond a la touche maitre de I3
-
 // I3
 
 // Gérer les bureaux
@@ -33,12 +30,6 @@ sudo aptitude keep-all = remove tous les paquets de autoremove
 // Systeme
 $mod+shift+e = log out
 
-
-// FLASHPLAYER
-Aller sur le site en marque page
-chemin flashplayer : /usr/lib/pepperflashplugin-nonfree/
-Copier le fichire pepflashplayer.so
-
 // Graver CD
 Brasero ou commande burn
 
@@ -65,3 +56,6 @@ xrandr -q
 xrandr --output VGA1 --mode 1024x768
 xrandr --output VGA1 --mode 1024x768 --right-of LVDS1
 xrandr --output VGA1 --off
+
+// Nettoyage
+sudo bleachbit
