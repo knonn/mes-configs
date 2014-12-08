@@ -1,0 +1,17 @@
+// Cloner
+git clone http://adressedurepos
+
+// Initialiser un fichier et first commit
+git init
+git add .
+git commit -m "first commit"
+git remote add origin http://adressedurepos.github..... (ou user@repos.bitbucket si bitbucket)
+git push -u origin master
+
+// Mise a jour du repos
+git pull
+
+// Update en ligne du repos
+git add .
+git commit -m "commentaire"
+git push
