@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: iostream
+# key: ios
+# binding: direct-keybinding
+# --
+#include <iostream>
+$0

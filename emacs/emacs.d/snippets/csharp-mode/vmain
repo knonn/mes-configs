@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: vmain
+# key: vmain
+# binding: direct-keybinding
+# --
+static void Main(string[] args)
+{
+	$0
+}

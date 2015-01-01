@@ -1,0 +1,42 @@
+(set-fringe-mode 0)
+(add-to-list 'load-path
+                           "~/.emacs.d/plugins/yasnippet")
+(require 'yasnippet)
+(yas-global-mode 1)
+(global-set-key (kbd "C-s") 'save-buffer)
+(global-set-key (kbd "C-r") 'search-forward)
+(global-set-key (kbd "C-q") 'kill-emacs)
+(add-to-list 'load-path "/home/romain/.emacs.d/auto-complete")
+(require 'auto-complete-config)
+(add-to-list 'load-path "/home/romain/.emacs.d/csharp")
+(require 'csharp-mode)
+(require 'package) ;; You might already have this line
+(add-to-list 'package-archives
+                          '("melpa" . "http://melpa.org/packages/") t)
+(when (< emacs-major-version 24)
+    ;; For important compatibility libraries like cl-lib
+      (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+(package-initialize)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+(global-auto-complete-mode t)
+(defun auto-complete-mode-maybe ()
+    "No maybe for you. Only AC!"
+      (unless (minibufferp (current-buffer))
+            (auto-complete-mode 1)))
+(load-theme 'tango-dark)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(cua-mode t nil (cua-base))
+ '(custom-safe-themes
+   (quote
+    ("efa048d8a9f9a8340a2f6382f3b8b8f4549cba38aa226803ff5b6a9b3a2d5f4b" "a81bc918eceaee124247648fc9682caddd713897d7fd1398856a5b61a592cb62" default)))
+ '(inhibit-startup-screen t))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family "DejaVu Sans Mono" :foundry "unknown" :slant normal :weight normal :height 98 :width normal)))))
