@@ -6,7 +6,6 @@ export ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
-
 #Empty line
 
 # Uncomment the following line to use case-sensitive completion.
@@ -81,7 +80,9 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias hibernate='sudo systemctl hibernate'
 alias imgview="gpicview"
+alias screenshot="ksnapshot"
 alias l="ls -lhG"
 alias la="ls -la"
 alias cda="cd .."
@@ -93,12 +94,22 @@ alias lock="i3lock"
 alias power-manager="xfce4-power-manager-settings"
 alias lsa="ls -a"
 alias treel="tree -L"
+alias docperso="cat /home/romain/Documents/docperso"
 alias findtmp="find ~/ -name '*~'"
 alias cleartmp="find ~/ -name '*~' -print0 | xargs -0 rm"
 alias sufindtmp="sudo find ~/ -name '*~'"
 alias sucleartmp="sudo find ~/ -name '*~' -print0 | xargs -0 rm"
 alias calendrier="orage"
+alias sfkgaming="ssh knonn@sfkgaming.fr -p 6969"
+alias firefox="/usr/local/firefox/firefox"
 alias pdfview="evince"
-alias halt="sudo halt"
+alias reboot="sudo systemctl reboot"
 alias wincpp="i586-mingw32msvc-g++"
 alias winc="i586-mingw32msvc-gcc"
+alias poweroff="sudo poweroff"
+alias e="emacs24"
+alias lpi="ssh pi@192.168.1.49 -p 6969"
+alias pi="ssh pi@knonn.ddns.net -p 6969"
+alias df="df -h"
+alias win='VBoxManage startvm "Windows 7"'
+alias newtex="~/texmf/tex/latex/knonn/create_latex_project -e"
