@@ -12,9 +12,9 @@
 set $mod Mod4
 
 # font for window titles. ISO 10646 = Unicode
-font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+# font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # font pango:DejaVu Sans Mono, Terminus 9
-#font pango:Ubuntu Mono 9
+font pango:Ubuntu Mono 9
 
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -182,6 +182,7 @@ bar {
 
 # Demarrage
 exec --no-startup-id sleep 3 && xfce4-power-manager
+exec --no-startup-id owncloud
 exec --no-startup-id nm-applet
 exec /usr/bin/xset b off
 exec i3-sensible-terminal
