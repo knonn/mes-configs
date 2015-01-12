@@ -31,7 +31,8 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+A kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec j4-dmenu-desktop
+#bindsym $mod+d exec j4-dmenu-desktop
+bindsym $mod+d exec dmenu_run
 
 # change focus
 #bindsym $mod+j focus left
@@ -185,10 +186,10 @@ bar {
 }
 
 # Demarrage
-exec --no-startup-id xfce4-power-manager
+exec --no-startup-id sleep 3 && xfce4-power-manager
 exec --no-startup-id nm-applet
+exec --no-startup-id feh --bg-scale ~/Images/CharlieHebdo.png
 exec /usr/bin/xset b off
-exec i3-sensible-terminal
 
 # Start terminal on workspace 2, then focus workspace 1
 #exec --no-startup-id i3-msg 'workspace 2; exec i3-sensible-terminal; workspace 1'
