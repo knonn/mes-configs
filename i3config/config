@@ -152,6 +152,7 @@ bindsym $mod+r mode "resize"
 
 # bind persos
 bindsym $mod+i exec iceweasel
+bindsym $mod+control+l exec i3lock -d -i ~/Images/CharlieHebdo.png
 # bindsym $mod+i exec chromium 
 
 # color defines for zenburn styled i3
@@ -190,6 +191,8 @@ exec --no-startup-id sleep 3 && xfce4-power-manager
 exec --no-startup-id nm-applet
 exec --no-startup-id feh --bg-scale ~/Images/CharlieHebdo.png
 exec /usr/bin/xset b off
+#exec /usr/bin/xset -dpms
+exec /usr/bin/xset s off
 
 # Start terminal on workspace 2, then focus workspace 1
 #exec --no-startup-id i3-msg 'workspace 2; exec i3-sensible-terminal; workspace 1'
