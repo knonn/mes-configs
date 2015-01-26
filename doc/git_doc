@@ -12,6 +12,6 @@ git push -u origin master
 git pull
 
 // Update en ligne du repos
-git add .
+git add nomdufichier
 git commit -m "commentaire"
 git push
