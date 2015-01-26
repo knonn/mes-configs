@@ -15,3 +15,9 @@ git pull
 git add nomdufichier
 git commit -m "commentaire"
 git push
+
+// Ajout de bug sur le site github
+Se rendre sur le site github onglet issues et noter le bug ainsi que son numéro (#1 par exemple)
+Corriger le bug
+Commit avec un message de type "fix #1"
+Push le tout et le bug sera automatiquement fermé sur le site de github
