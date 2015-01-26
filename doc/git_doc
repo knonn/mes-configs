@@ -3,7 +3,7 @@ git clone http://adressedurepos
 
 // Initialiser un fichier et first commit
 git init
-git add .
+git add nomdufichier
 git commit -m "first commit"
 git remote add origin http://adressedurepos.github..... (ou user@repos.bitbucket si bitbucket)
 git push -u origin master
