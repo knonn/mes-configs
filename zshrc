@@ -1,12 +1,11 @@
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+export ZSH=/home/knonn/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
-#Empty line
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -48,13 +47,12 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
-
 # User configuration
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
-
 # export MANPATH="/usr/local/man:$MANPATH"
+
+source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -80,32 +78,36 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias imgview="gpicview"
-alias screenshot="ksnapshot"
-alias l="ls -lhG"
-alias la="ls -la"
-alias cda="cd .."
 alias apt-update="sudo apt-get update"
 alias apt-upgrade="sudo apt-get upgrade"
-alias inst="sudo dpkg -i"
-alias wifi="nm-applet"
-alias lock="i3lock"
+alias screenshot="ksnapshot"
+alias l="ls -lhG"
+alias cda="cd .."
 alias power-manager="xfce4-power-manager-settings"
 alias lsa="ls -a"
-alias treel="tree -L"
+alias docperso="cat ~/Documents/docperso"
 alias findtmp="find ~/ -name '*~'"
 alias cleartmp="find ~/ -name '*~' -print0 | xargs -0 rm"
+alias sufindtmp="sudo find ~/ -name '*~'"
+alias sucleartmp="sudo find ~/ -name '*~' -print0 | xargs -0 rm"
 alias calendrier="orage"
+alias sfkgaming="ssh knonn@sfkgaming.fr -p 6969"
 alias pdfview="evince"
+alias reboot="sudo systemctl reboot"
 alias wincpp="i586-mingw32msvc-g++"
 alias winc="i586-mingw32msvc-gcc"
+alias e="emacs24"
+alias lpi="ssh pi@192.168.1.21 -p 6969"
+alias pi="ssh pi@knonn.flnet.org -p 6969"
+alias df="df -h"
 alias e="emacs"
 alias dfh="df -h"
 alias win='VBoxManage startvm "Windows 7"'
 alias ubuntu='VBoxManage startvm "Ubuntu server"'
 alias newtex="~/texmf/tex/latex/knonn/create_latex_project -e"
 alias latexclear="rm *.log | rm *.aux | rm *.toc"
-alias rpitunnel="ssh -L 6969:knonn.ddns.net:8009 pi@knonn.ddns.net -p 6969"
-alias supp="trash-put"
 alias uuid="sudo blkid"
 alias pcoff="sudo shutdown -h now"
+alias vpnfr="cd ~/VPN && sudo openvpn --config Paris.ovpn"
+alias inst="sudo dpkg -i"
+alias n="open-nautilus-here"

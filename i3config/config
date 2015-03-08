@@ -12,9 +12,10 @@
 set $mod Mod4
 
 # font for window titles. ISO 10646 = Unicode
-font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+#font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # font pango:DejaVu Sans Mono, Terminus 9
-#font pango:Ubuntu Mono 9
+font pango:Ubuntu Mono 8
+#font pango:Ubuntu, Light 8
 
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -93,7 +94,7 @@ bindsym $mod+parenleft workspace 5
 bindsym $mod+minus workspace 6
 bindsym $mod+egrave workspace 7
 bindsym $mod+underscore workspace 8
-bindsym $mod+ccedilla workspace 9
+bindsym $mod+ccedilla workspace 9: VPN
 bindsym $mod+agrave workspace 10
 
 # move focused container to workspace
@@ -105,7 +106,7 @@ bindsym $mod+Shift+5 move container to workspace 5
 bindsym $mod+Shift+6 move container to workspace 6
 bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
-bindsym $mod+Shift+9 move container to workspace 9
+bindsym $mod+Shift+9 move container to workspace 9: VPN
 bindsym $mod+Shift+0 move container to workspace 10
 
 # volume control
@@ -152,22 +153,27 @@ bindsym $mod+r mode "resize"
 
 # bind persos
 bindsym $mod+i exec iceweasel
-bindsym $mod+control+l exec i3lock -d -i ~/Images/CharlieHebdo.png
+bindsym $mod+control+l exec i3lock -d
 # bindsym $mod+i exec chromium 
 
 # color defines for zenburn styled i3
-set $bg     #dd4814
-set $fg     #ffffff
-set $hi     #902a07
-set $ac     #5e2750
-set $tx     #aea79f
-set $ia     #77216f
+#set $bg     #55fd46
+#set $fg     #ffffff
+#set $hi     #902a07
+#set $ac     #5e2750
+#set $tx     #aea79f
+#set $ia     #77216f
 
 # Appearance
 #client.focused	    		$bg	$bg	$fg	$hi
-#client.focused_inactive		$ac	$ac	$tx	$ac
+#client.focused_inactive	$ac	$ac	$tx	$ac
 #client.unfocused	    	$ac	$ac	$tx	$ac
 #client.urgent		    	$ia	$ia	$fg	$ia
+
+client.focused #0088CC #0088CC #ffffff #dddddd
+client.focused_inactive #333333 #333333 #888888 #292d2e
+client.unfocused #333333 #333333 #888888 #292d2e
+client.urgent #2f343a #900000 #ffffff #900000
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -175,24 +181,25 @@ bar {
 	mode hide
     	modifier Mod1
         status_command i3status --config ~/.i3status.conf
-#	colors {
-#	     background		#2c001e
-#	     statusline		$tx
-#         separator		#333333
-#         focused_workspace	$bg     $bg     $fg
-#         active_workspace	$hi     $hi     $tx
-#         inactive_workspace	$hi     $$hi    $tx
-#         urgent_workspace	$ia     $ia     $fg
-#    }
+        colors {
+            background #000000
+            separator #666666
+            statusline #ffffff
+            focused_workspace #44bbff #3276E8 #ffffff
+            active_workspace #333333 #5f676a #ffffff
+            inactive_workspace #333333 #222222 #888888
+            urgent_workspace #2f343a #900000 #ffffff
+        }
 }
 
 # Demarrage
 exec --no-startup-id sleep 3 && xfce4-power-manager
 exec --no-startup-id nm-applet
-exec --no-startup-id feh --bg-scale ~/Images/CharlieHebdo.png
+#exec --no-startup-id feh --bg-scale ~/Images/CharlieHebdo.png
 exec /usr/bin/xset b off
 #exec /usr/bin/xset -dpms
 exec /usr/bin/xset s off
+exec --no-startup-id owncloud
 
 # Start terminal on workspace 2, then focus workspace 1
-#exec --no-startup-id i3-msg 'workspace 2; exec i3-sensible-terminal; workspace 1'
+exec --no-startup-id i3-msg 'workspace 9: VPN; exec terminator; workspace 1'

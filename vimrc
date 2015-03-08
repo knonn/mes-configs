@@ -165,8 +165,6 @@ let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 set completeopt=menuone,menu,longest,preview"""""]"""""
 
-call pathogen#infect()
-
 map <F7> mzgg=G`z<CR>
 
 autocmd bufnewfile *.cpp so /home/romain/Documents/headers/header_cpp.txt 
