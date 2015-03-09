@@ -94,7 +94,7 @@ bindsym $mod+parenleft workspace 5
 bindsym $mod+minus workspace 6
 bindsym $mod+egrave workspace 7
 bindsym $mod+underscore workspace 8
-bindsym $mod+ccedilla workspace 9: VPN
+bindsym $mod+ccedilla workspace 9
 bindsym $mod+agrave workspace 10
 
 # move focused container to workspace
@@ -106,7 +106,7 @@ bindsym $mod+Shift+5 move container to workspace 5
 bindsym $mod+Shift+6 move container to workspace 6
 bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
-bindsym $mod+Shift+9 move container to workspace 9: VPN
+bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
 # volume control
@@ -202,4 +202,4 @@ exec /usr/bin/xset s off
 exec --no-startup-id owncloud
 
 # Start terminal on workspace 2, then focus workspace 1
-exec --no-startup-id i3-msg 'workspace 9: VPN; exec terminator; workspace 1'
+#exec --no-startup-id i3-msg 'workspace 9: VPN; exec terminator; workspace 1'
