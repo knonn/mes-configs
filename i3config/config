@@ -188,6 +188,7 @@ exec --no-startup-id owncloud
 assign [class="^Icedove$"] 2
 assign [class="^Iceweasel$" instance="^Navigator$"] 3
 assign [class="^QtCreator$"] 5
+assign [class="^VirtualBox$"] 4
 
 # Enable auto back and forth
 workspace_auto_back_and_forth yes
@@ -197,7 +198,7 @@ bindsym $mod+i exec iceweasel
 bindsym $mod+n exec /usr/bin/nautilus
 bindsym $mod+control+l exec i3lock --color=111111 --nofork
 bindsym $mod+b border toggle
-bindsym XF86Display exec lxrandr
+bindsym XF86Display exec /usr/bin/terminator --command="nscreen n"
 bindsym Print exec /usr/bin/gnome-screenshot -f ~/Images/screenshot-$(date "+%Y%m%d-%H%M%S").png -w
 bindsym Control+Mod1+Print exec /usr/bin/gnome-screenshot -f ~/Images/screenshot-$(date "+%Y%m%d-%H%M%S").png -a
 bindsym $mod+x exec /usr/bin/XMind
