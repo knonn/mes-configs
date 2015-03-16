@@ -161,13 +161,13 @@ client.focused_inactive		#111111 #3F6700 #ffffff #484e50
 # finds out, if available)
 bar {
 	mode hide
-    	modifier Mod1
+    	#modifier Mod1
         status_command i3status --config ~/.i3status.conf
 	colors {
 		background #000000
 		statusline #ffffff
 		separator #666666
-		focused_workspace #4c7899 #285577 #ffffff
+		focused_workspace #111111 #AFD700 #000000
 		active_workspace #333333 #5f676a #ffffff
 		inactive_workspace #333333 #222222 #888888
 		urgent_workspace #2f343a #900000 #ffffff
@@ -180,6 +180,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xsetroot -solid "#000000"
 exec /usr/bin/xset b off s off -dpms
 exec --no-startup-id owncloud
+exec --no-startup-id wifi off
 
 # Start terminal on workspace 2, then focus workspace 1
 #exec --no-startup-id i3-msg 'workspace 9: VPN; exec terminator; workspace 1'
