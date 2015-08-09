@@ -14,20 +14,14 @@ set $mod Mod4
 # font for window titles. ISO 10646 = Unicode
 #font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # font pango:DejaVu Sans Mono, Terminus 9
-<<<<<<< HEAD
 #font pango:Ubuntu, Light 8
 font pango:DejaVu Sans Mono 8
-=======
-font pango:Ubuntu Mono 8
-#font pango:Ubuntu, Light 8
-
->>>>>>> 24df256c138eeadcb568540e8615fb1ce1db2d83
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec terminator
+bindsym $mod+Return exec gnome-terminal
 
 # resize windows
 #bindsym $mod+j resize shrink left 30px
@@ -157,8 +151,8 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Appearance
-client.focused	    		#111111 #AFD700 #000000 #000000
-client.focused_inactive		#111111 #3F6700 #ffffff #484e50
+client.focused	    		#111111 #fd4242 #000000 #000000
+client.focused_inactive		#111111 #FF8A8A #ffffff #484e50
 #client.unfocused	    	$ac	$ac	$tx	$ac
 #client.urgent		    	$ia	$ia	$fg	$ia
 
@@ -172,7 +166,7 @@ bar {
 		background #000000
 		statusline #ffffff
 		separator #666666
-		focused_workspace #111111 #AFD700 #000000
+		focused_workspace #111111 #fd4242 #000000
 		active_workspace #333333 #5f676a #ffffff
 		inactive_workspace #333333 #222222 #888888
 		urgent_workspace #2f343a #900000 #ffffff
@@ -180,30 +174,20 @@ bar {
 }
 
 # Demarrage
-<<<<<<< HEAD
-=======
-exec --no-startup-id sleep 3 && xfce4-power-manager
->>>>>>> 24df256c138eeadcb568540e8615fb1ce1db2d83
-exec --no-startup-id nm-applet
+exec nm-applet
 exec --no-startup-id xsetroot -solid "#000000"
-exec /usr/bin/xset b off s off -dpms
-exec --no-startup-id owncloud
-<<<<<<< HEAD
-=======
-exec --no-startup-id wifi off
->>>>>>> 24df256c138eeadcb568540e8615fb1ce1db2d83
+exec --no-startup-id /usr/bin/xset b off s off -dpms
+exec owncloud
+exec xfce4-power-manager
+exec compton
+
+# Wallpaper
+exec feh --bg-scale /usr/share/backgrounds/gnome/adwaita-night.jpg
 
 # Start terminal on workspace 2, then focus workspace 1
 #exec --no-startup-id i3-msg 'workspace 9: VPN; exec terminator; workspace 1'
 
 # Assign windows to workspaces
-<<<<<<< HEAD
-=======
-assign [class="^Icedove$"] 2
-assign [class="^Iceweasel$" instance="^Navigator$"] 3
-assign [class="^QtCreator$"] 5
-assign [class="^VirtualBox$"] 4
->>>>>>> 24df256c138eeadcb568540e8615fb1ce1db2d83
 
 # Enable auto back and forth
 workspace_auto_back_and_forth yes
@@ -216,4 +200,3 @@ bindsym $mod+b border toggle
 bindsym XF86Display exec /usr/bin/terminator --command="nscreen n"
 bindsym Print exec /usr/bin/gnome-screenshot -f ~/Images/screenshot-$(date "+%Y%m%d-%H%M%S").png -w
 bindsym Control+Mod1+Print exec /usr/bin/gnome-screenshot -f ~/Images/screenshot-$(date "+%Y%m%d-%H%M%S").png -a
-bindsym $mod+x exec /usr/bin/XMind
