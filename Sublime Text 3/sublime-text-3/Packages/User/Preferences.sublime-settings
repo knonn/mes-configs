@@ -1,0 +1,20 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/Flatland Monokai (SL).tmTheme",
+	"dictionary": "Packages/Language - French - Français/fr_FR.dic",
+	"draw_white_space": "all",
+	"font_face": "Source Code Pro",
+	"font_size": 10.5,
+	"ignored_packages":
+	[
+		"CSS",
+		"JavaScript",
+		"Vintage"
+	],
+	"soda_classic_tabs": true,
+	"tab_size": 2,
+	"theme": "SoDaReloaded.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false,
+	"word_wrap": true
+}

@@ -1,0 +1,23 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    use_system_font = False
+    font = DejaVu Sans Mono 9
+    background_image = None
+    foreground_color = "#e3e6e7"
+    show_titlebar = False
+    copy_on_selection = True
+    background_color = "#131926"
+    cursor_blink = False
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

@@ -1,0 +1,27 @@
+[
+	{ "keys": ["ctrl+i"], "command": "reindent"},
+	{ "keys": ["ctrl+b"], "command": "indent_and_braces" },
+  { "key": ["ctrl+shift+b"], "command": "build", "args": {"variant": "Make PDF"}},
+  { "keys": ["ctrl+:"], "command": "toggle_comment", "args": { "block": false } },
+  {
+        "keys": [
+            "ctrl+shift+:"
+        ],
+        "args": {
+            "action": "toggle_comment"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "operand": "source.css, source.less, source.scss, text.xml, text.html - source",
+                "operator": "equal",
+                "match_all": true,
+                "key": "selector"
+            },
+            {
+                "match_all": true,
+                "key": "emmet_action_enabled.toggle_comment"
+            }
+        ]
+    },
+]

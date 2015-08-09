@@ -1,0 +1,88 @@
+;; Require Emacs' package functionality
+(require 'package)
+
+;; Add the Melpa repository to the list of package sources
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+
+;; keys
+(global-set-key (kbd "C-s") 'save-buffer) ; Ctrl+S
+(global-set-key (kbd "C-q") 'kill-buffer) ; Ctrl+q
+(global-set-key [f8] 'neotree-toggle) ; F8
+(global-set-key (kbd "C-b") 'select-named-buffer) ; CTRL+b
+;; Initialise the package system.
+(package-initialize)
+(require 'graphene)
+(require 'auto-complete-config)
+(require 'neotree)
+(yas-global-mode t)
+(cua-mode t)
+(auto-complete-mode t)
+(ac-config-default)
+(load "package")
+(add-to-list 'package-archives
+             '("marmalade" . "http://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+
+(setq package-archive-enable-alist '(("melpa" deft magit)))
+
+(defvar abedra/packages '(ac-slime
+                          auto-complete
+                          autopair
+                          clojure-mode
+                          coffee-mode
+                          csharp-mode
+                          deft
+                          erlang
+                          feature-mode
+                          flycheck
+                          gist
+                          go-mode
+                          graphviz-dot-mode
+                          haml-mode
+                          haskell-mode
+                          htmlize
+                          magit
+                          markdown-mode
+                          marmalade
+                          nodejs-repl
+                          o-blog
+                          org
+                          paredit
+                          php-mode
+                          puppet-mode
+                          restclient
+                          rvm
+                          scala-mode
+                          smex
+                          sml-mode
+                          solarized-theme
+                          web-mode
+                          writegood-mode
+                          yaml-mode)
+  "Default packages")
+
+(defun abedra/packages-installed-p ()
+  (loop for pkg in abedra/packages
+        when (not (package-installed-p pkg)) do (return nil)
+        finally (return t)))
+
+(unless (abedra/packages-installed-p)
+  (message "%s" "Refreshing package database...")
+  (package-refresh-contents)
+  (dolist (pkg abedra/packages)
+    (when (not (package-installed-p pkg))
+      (package-install pkg))))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes (quote (flatland)))
+ '(custom-safe-themes (quote ("30c1546ebbae463b183bbeaed22c81cebf65d11cfb23c31f52cbf59ea99544fe" "9122dfb203945f6e84b0de66d11a97de6c9edf28b3b5db772472e4beccc6b3c5" "a2e7b508533d46b701ad3b055e7c708323fb110b6676a8be458a758dd8f24e27" default))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

@@ -1,0 +1,41 @@
+>> Autorisation d'une adresse IP
+>>> Création d'une ACL correspondant à l'ip
+
+acl romain src 192.168.1.1/24
+
+>>> Autorisation de l'acl à la connexion HTTP
+
+http_access allow romain
+
+---------------------------------------------------------------
+
+>> Autorisation d'une adresse MAC
+>>> Création d'une ACL correspondant à l'adresse MAC
+
+acl romain arp AA:AA:AA:AA:AA:AA
+
+>>> Autorisation de l'acl à la connexion HTTP
+
+http_access allow romain
+
+---------------------------------------------------------------
+
+>> Mise en place d'une authentification sur proxy
+
+auth_param basic program /usr/lib/squid3/ncsa_auth /etc/squid3/passwords
+auth_param basic realm proxy
+acl authenticated proxy_auth REQUIRED
+http_access allow authenticated
+
+>>> Refuser l'acces à tout autre requete http
+
+http_access deny all
+
+>> Création d'un nom d'utilisateur :
+sudo htpasswd -cd /etc/squid3/passwords knonn
+
+---------------------------------------------------------------
+
+>> Changement du port du proxy
+
+http_port 3128

@@ -1,0 +1,29 @@
+
+;; ----- smex-history -----
+(
+ term
+ split-window-right
+ auto-complete-mode
+ LaTeX-mode
+ lisp-mode
+ package-install
+ yas-global-mode
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 22)
+ (customize-group . 1)
+ (yas-global-mode . 4)
+ (idomenu . 2)
+ (ido-mode . 2)
+ (load-theme . 6)
+ (web-mode . 1)
+ (auto-complete-mode . 4)
+ (LaTeX-mode . 2)
+ (dirtree-show . 2)
+ (neotree . 1)
+ (lisp-mode . 1)
+ (term . 3)
+ (split-window-right . 2)
+)

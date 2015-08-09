@@ -1,0 +1,15 @@
+{
+    "name": "lzia.lunies",
+    "title": "Lunies",
+    "description": "A flat theme, inspired by the night colors.",
+    "homepage": "https://github.com/lzia/lunies",
+    "version": "0.0.2",
+    "author": "Lucas Liza <lucaslizza@gmail.com> (http://github.com/lzia)",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.less",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["theme", "dark theme", "flat"]
+}

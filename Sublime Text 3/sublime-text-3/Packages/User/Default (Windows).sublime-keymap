@@ -1,0 +1,4 @@
+[
+	{ "keys": ["ctrl+i"], "command": "reindent"},
+	{ "keys": ["ctrl+b"], "command": "indent_and_braces" },
+]
