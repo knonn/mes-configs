@@ -14,8 +14,14 @@ set $mod Mod4
 # font for window titles. ISO 10646 = Unicode
 #font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # font pango:DejaVu Sans Mono, Terminus 9
+<<<<<<< HEAD
 #font pango:Ubuntu, Light 8
 font pango:DejaVu Sans Mono 8
+=======
+font pango:Ubuntu Mono 8
+#font pango:Ubuntu, Light 8
+
+>>>>>>> 24df256c138eeadcb568540e8615fb1ce1db2d83
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -174,15 +180,30 @@ bar {
 }
 
 # Demarrage
+<<<<<<< HEAD
+=======
+exec --no-startup-id sleep 3 && xfce4-power-manager
+>>>>>>> 24df256c138eeadcb568540e8615fb1ce1db2d83
 exec --no-startup-id nm-applet
 exec --no-startup-id xsetroot -solid "#000000"
 exec /usr/bin/xset b off s off -dpms
 exec --no-startup-id owncloud
+<<<<<<< HEAD
+=======
+exec --no-startup-id wifi off
+>>>>>>> 24df256c138eeadcb568540e8615fb1ce1db2d83
 
 # Start terminal on workspace 2, then focus workspace 1
 #exec --no-startup-id i3-msg 'workspace 9: VPN; exec terminator; workspace 1'
 
 # Assign windows to workspaces
+<<<<<<< HEAD
+=======
+assign [class="^Icedove$"] 2
+assign [class="^Iceweasel$" instance="^Navigator$"] 3
+assign [class="^QtCreator$"] 5
+assign [class="^VirtualBox$"] 4
+>>>>>>> 24df256c138eeadcb568540e8615fb1ce1db2d83
 
 # Enable auto back and forth
 workspace_auto_back_and_forth yes

@@ -65,6 +65,7 @@ xrandr --output VGA1 --off
 
 // DDOS
 send(IP(dst="172.16.100.115")/"Fuck you remy", loop=1)
+<<<<<<< HEAD
 sendp(Ether(src="11:22:33:44:55:66)/IP(src="source", dst="dest")/"message", loop=1)
 
 // Nettoyage
@@ -89,3 +90,8 @@ Section "Device"
 	Option "AccelMethod" "sna"
 	Option "TearFree" "True"
 EndSection
+=======
+
+// Nettoyage
+sudo bleachbit
+>>>>>>> 24df256c138eeadcb568540e8615fb1ce1db2d83
