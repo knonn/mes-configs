@@ -1,1 +1,1 @@
-{"description": "Python requests module", "platforms": ["*"], "sublime_text": "*", "version": "2.5.3", "url": "https://github.com/packagecontrol/requests/issues"}
+{"sublime_text": "*", "version": "2.7.0", "description": "Python requests module", "platforms": ["*"], "url": "https://github.com/packagecontrol/requests/issues"}

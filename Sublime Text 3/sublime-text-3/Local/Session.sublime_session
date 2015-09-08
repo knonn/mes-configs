@@ -1315,18 +1315,26 @@
 			"buffers":
 			[
 				{
-					"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome/Skyyart/background.js",
+					"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome 2.0/background.js",
 					"settings":
 					{
-						"buffer_size": 3674,
+						"buffer_size": 1513,
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome/Skyyart/manifest.json",
+					"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/lib/main.js",
 					"settings":
 					{
-						"buffer_size": 985,
+						"buffer_size": 2402,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/package.json",
+					"settings":
+					{
+						"buffer_size": 337,
 						"line_ending": "Windows"
 					}
 				}
@@ -1362,17 +1370,17 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 79.0,
-				"last_filter": "upgrade",
+				"height": 274.0,
+				"last_filter": "install",
 				"selected_items":
 				[
 					[
-						"upgrade",
-						"Package Control: Upgrade/Overwrite All Packages"
-					],
-					[
 						"install",
 						"Package Control: Install Package"
+					],
+					[
+						"upgrade",
+						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
 						"clean",
@@ -1879,7 +1887,7 @@
 						"Set Syntax: C++11"
 					]
 				],
-				"width": 579.0
+				"width": 507.0
 			},
 			"console":
 			{
@@ -1907,20 +1915,28 @@
 			"expanded_folders":
 			[
 				"/home/knonn/Documents/dev/plugins web/Extention Skyyart",
-				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome",
-				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome/Skyyart",
 				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox",
 				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/data",
 				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/lib"
 			],
 			"file_history":
 			[
-				"/media/knonn/7B01704F68D77F46/MDP.txt",
-				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/lib/main.js",
 				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/package.json",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/FileHeader.sublime-settings",
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome 2.0/background.js",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome 2.0/manifest.json",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/panel.php",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/admpanel/add.php",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/article.php",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/function.php",
+				"/run/user/1000/gvfs/smb-share:server=192.168.2.50,share=ressources_classes/psts2/SISR3/attributionIP labo2015.txt",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/projets.php",
 				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome/Skyyart/background.js",
 				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome/Skyyart/manifest.json",
+				"/media/knonn/7B01704F68D77F46/MDP.txt",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/lib/main.js",
 				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/diaporama/diaporama.tex",
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Git GUI Clients/Git GUI Clients.sublime-settings",
 				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/rapport_activite/rapport_activite.tex",
@@ -1939,7 +1955,6 @@
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/Emmet.sublime-settings",
-				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/admpanel/add.php",
 				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/veille_techno.php",
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeXing/Default.sublime-keymap",
 				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/style.css",
@@ -1948,9 +1963,7 @@
 				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/diaporama/test.html",
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeXing/LaTeX/Indentation Rules.tmPreferences",
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeX/Indentation Rules.tmPreferences",
-				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/function.php",
 				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/admpanel/dc.php",
-				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/panel.php",
 				"/home/knonn/texmf/tex/latex/knonn/diapo.tex",
 				"/home/knonn/texmf/tex/latex/knonn/create_diapo_project",
 				"/home/knonn/Documents/si5/TP/TP8 30-03-2015/scripts/tp8/efface.sh",
@@ -1958,8 +1971,6 @@
 				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/profil.php",
 				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/login.php",
 				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/admpanel/list.php",
-				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/projets.php",
-				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/article.php",
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Gutter Color/GutterColor.sublime-settings",
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/Default (Linux).sublime-keymap",
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/MultiEditUtils/MultiEditUtils.sublime-settings",
@@ -1980,7 +1991,6 @@
 				"/home/knonn/Documents/dev/html&css/tmp/wfdi01/01 - Site de stream/Intégration/style.css",
 				"/home/knonn/tmp/prog.cpp",
 				"/home/knonn/tmp/test.cpp",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/FileHeader.sublime-settings",
 				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/rapport_activite/test.cpp",
 				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/rapport_activite/lol.php",
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/gls.sublime-snippet",
@@ -2039,10 +2049,7 @@
 				"/home/knonn/Documents/dev/newscreen.sh",
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/ShellScript/case-..-esac-(case).sublime-snippet",
 				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp10/appelsp.sh",
-				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp10/sp.sh",
-				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp10/yesorno.sh",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/FileHeader.sublime-settings",
-				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp10/test.sh"
+				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp10/sp.sh"
 			],
 			"find":
 			{
@@ -2154,19 +2161,162 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome/Skyyart/background.js",
+							"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome 2.0/background.js",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 3674,
+								"buffer_size": 1513,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										878,
-										878
+										167,
+										167
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"auto_complete": false,
+									"bh_regions":
+									[
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										223,
+										9,
+										6,
+										23,
+										31,
+										45,
+										0,
+										0,
+										0,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+									"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 1,
+							"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/lib/main.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2402,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										170,
+										170
 									]
 								],
 								"settings":
@@ -2261,10 +2411,10 @@
 										7,
 										223,
 										7,
-										16,
-										21,
-										28,
-										31,
+										17,
+										18,
+										46,
+										36,
 										0,
 										0,
 										0,
@@ -2278,7 +2428,7 @@
 										3,
 										46
 									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Monokai (SL).tmTheme",
+									"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
 									"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
 									"translate_tabs_to_spaces": false
 								},
@@ -2286,24 +2436,24 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 1,
 							"type": "text"
 						},
 						{
-							"buffer": 1,
-							"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome/Skyyart/manifest.json",
+							"buffer": 2,
+							"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/package.json",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 985,
+								"buffer_size": 337,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										888,
-										888
+										223,
+										223
 									]
 								],
 								"settings":
@@ -2312,61 +2462,61 @@
 									"auto_complete": true,
 									"bh_regions":
 									[
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
 										"bh_round",
 										"bh_round_center",
 										"bh_round_open",
 										"bh_round_close",
 										"bh_round_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
 										"bh_regex",
 										"bh_regex_center",
 										"bh_regex_open",
 										"bh_regex_close",
 										"bh_regex_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content"
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
 									],
 									"c_time":
 									[
@@ -2397,10 +2547,10 @@
 										10,
 										7,
 										223,
+										9,
 										7,
-										15,
-										16,
-										50,
+										13,
+										25,
 										40,
 										0,
 										0,
@@ -2415,16 +2565,15 @@
 										3,
 										46
 									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Monokai (SL).tmTheme",
-									"syntax": "Packages/Better JavaScript/JSON.tmLanguage",
-									"tab_size": 3,
+									"syntax": "Packages/Seti_UI/Langs/npm JSON.tmLanguage",
+									"tab_size": 2,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 0,
 							"type": "text"
 						}
 					]
@@ -2447,11 +2596,18 @@
 						0,
 						1,
 						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
 					]
 				],
 				"cols":
 				[
 					0.0,
+					0.459094229365,
 					1.0
 				],
 				"rows":
@@ -2474,7 +2630,7 @@
 				"height": 110.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,1600,900",
+			"position": "0,0,0,0,0,0,18,1596,898,1600,900",
 			"project": "",
 			"replace":
 			{
@@ -2520,7 +2676,7 @@
 				],
 				"width": 0.0
 			},
-			"selected_group": 0,
+			"selected_group": 1,
 			"settings":
 			{
 			},

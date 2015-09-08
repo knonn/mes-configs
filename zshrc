@@ -5,7 +5,7 @@ export ZSH=/home/knonn/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -108,6 +108,7 @@ alias newtex="~/texmf/tex/latex/knonn/create_latex_project -e"
 alias latexclear="rm *.log | rm *.aux | rm *.toc"
 alias uuid="sudo blkid"
 alias pcoff="sudo shutdown -h now"
-alias vpnfr="cd ~/VPN && sudo openvpn --config Paris.ovpn"
 alias inst="sudo dpkg -i"
-alias n="open-nautilus-here"
+alias pcm="pcmanfm ./&"
+alias mvworkspace="~/Documents/dev/move-workspace.sh"
+alias nscreen="~/Documents/dev/newscreen.sh"

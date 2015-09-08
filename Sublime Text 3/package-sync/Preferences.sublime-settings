@@ -1,15 +1,15 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Flatland Monokai (SL).tmTheme",
+	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
 	"dictionary": "Packages/Language - French - Français/fr_FR.dic",
 	"draw_white_space": "all",
-	"font_face": "DejaVu Sans Mono",
-	"font_size": 10,
+	"font_face": "Consolas",
+	"font_size": 11,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"CSS",
-		"JavaScript",
-		"Vintage"
+		"Vintage",
+		"JavaScript"
 	],
 	"overlay_scroll_bars": "enabled",
 	"tab_size": 2,

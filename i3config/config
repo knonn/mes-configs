@@ -21,7 +21,7 @@ font pango:DejaVu Sans Mono 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec gnome-terminal
+bindsym $mod+Return exec terminator
 
 # resize windows
 #bindsym $mod+j resize shrink left 30px
@@ -151,8 +151,8 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Appearance
-client.focused	    		#111111 #fd4242 #000000 #000000
-client.focused_inactive		#111111 #FF8A8A #ffffff #484e50
+client.focused	    		#111111 #ffad33 #000000 #000000
+client.focused_inactive		#111111 #FFC266 #999999 #484e50
 #client.unfocused	    	$ac	$ac	$tx	$ac
 #client.urgent		    	$ia	$ia	$fg	$ia
 
@@ -166,12 +166,15 @@ bar {
 		background #000000
 		statusline #ffffff
 		separator #666666
-		focused_workspace #111111 #fd4242 #000000
+		focused_workspace #111111 #ffad33 #000000
 		active_workspace #333333 #5f676a #ffffff
 		inactive_workspace #333333 #222222 #888888
 		urgent_workspace #2f343a #900000 #ffffff
 	}
 }
+
+# Kill service notify
+exec killall -q fsnotify_mark
 
 # Demarrage
 exec nm-applet
@@ -180,6 +183,7 @@ exec --no-startup-id /usr/bin/xset b off s off -dpms
 exec owncloud
 exec xfce4-power-manager
 exec compton
+exec --no-startup-id dunst -config ~/.config/dunst/dunst.conf
 
 # Wallpaper
 exec feh --bg-scale /usr/share/backgrounds/gnome/adwaita-night.jpg
