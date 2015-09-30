@@ -7,9 +7,9 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"JavaScript",
 		"CSS",
-		"Vintage",
-		"JavaScript"
+		"Vintage"
 	],
 	"overlay_scroll_bars": "enabled",
 	"tab_size": 2,

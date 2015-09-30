@@ -21,1066 +21,12 @@
 		"/home/knonn/Documents/si6/tp-calculatrice/code"
 	],
 	"last_version": 3083,
-	"last_window_id": 23,
+	"last_window_id": 24,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 0.0,
+		"new_window_height": 1004.0,
 		"new_window_settings":
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-					[
-						"mysqli_fet",
-						"mysqli_fetch_assoc〔function〕"
-					],
-					[
-						"square",
-						"squarelittlebtn"
-					],
-					[
-						"hfill",
-						"hlinefill	latex-document"
-					],
-					[
-						"MYSQL",
-						"MYSQL_ASSOC〔constant〕"
-					],
-					[
-						"mysqlfet",
-						"mysql_fetch_array"
-					],
-					[
-						"row",
-						"row1	(contact.php)"
-					],
-					[
-						"hspa",
-						"hspace{length}	latex-document"
-					],
-					[
-						"end",
-						"end{minipage}	rapport_activite.tex"
-					],
-					[
-						"minipa",
-						"begin{minipage}{width}	latex-document"
-					],
-					[
-						"hline",
-						"hline	latex-document"
-					],
-					[
-						"url",
-						"url()"
-					],
-					[
-						"inline",
-						"inline-block"
-					],
-					[
-						"vertical",
-						"vertical-align"
-					],
-					[
-						"table",
-						"table-cell"
-					],
-					[
-						"margin",
-						"margin"
-					],
-					[
-						"incl",
-						"incl	include …"
-					],
-					[
-						"cent",
-						"centerline{text}	latex-l2tabu"
-					],
-					[
-						"item",
-						"begin{itemize}\\item	latex-document"
-					],
-					[
-						"beginitem",
-						"begin{itemize}\\item	latex-document"
-					],
-					[
-						"gls",
-						"glossary{text}	latex-document"
-					],
-					[
-						"usepa",
-						"usepackage{package}	latex-document"
-					],
-					[
-						"fichier",
-						"fichiercut"
-					],
-					[
-						"pdf",
-						"pdflatex"
-					],
-					[
-						"gra",
-						"\\includegraphics{}"
-					],
-					[
-						"function",
-						"create_function"
-					],
-					[
-						"read",
-						"readyState	Document"
-					],
-					[
-						"Live",
-						"LiveOnAir"
-					],
-					[
-						"player",
-						"player_after"
-					],
-					[
-						"swf",
-						"swfobject"
-					],
-					[
-						"embed",
-						"embed"
-					],
-					[
-						"outu",
-						"output"
-					],
-					[
-						"outp",
-						"output"
-					],
-					[
-						"getele",
-						"getElementById(${0:id})	Element"
-					],
-					[
-						"play",
-						"player_playVideo"
-					],
-					[
-						"click",
-						"clickonbutton"
-					],
-					[
-						"bod",
-						"body	Tag"
-					],
-					[
-						"l",
-						"les"
-					],
-					[
-						"su",
-						"\\subsection{}"
-					],
-					[
-						"if",
-						"if	If Condition"
-					],
-					[
-						"lis",
-						"liste"
-					],
-					[
-						"liste",
-						"liste2"
-					],
-					[
-						"u",
-						"utilisateur"
-					],
-					[
-						"bash",
-						"bash	Entête bash"
-					],
-					[
-						"prin",
-						"printf	printf …"
-					],
-					[
-						"retur",
-						"return"
-					],
-					[
-						"trans",
-						"transition	CSS - transition: ;"
-					],
-					[
-						"lol",
-						"lolilol"
-					],
-					[
-						"b",
-						"inline-block"
-					],
-					[
-						"z",
-						"z-index"
-					],
-					[
-						"font",
-						"font-size"
-					],
-					[
-						"fonts",
-						"font-style"
-					],
-					[
-						"inli",
-						"inline-block"
-					],
-					[
-						"max",
-						"max-height"
-					],
-					[
-						"margi",
-						"margin-left"
-					]
-				]
-			},
-			"build_system_choices":
-			[
-			],
-			"build_varint": "",
-			"command_palette":
-			{
-				"height": 240.0,
-				"last_filter": "findkey",
-				"selected_items":
-				[
-					[
-						"findkey",
-						"FindKeyConflicts: Command Search"
-					],
-					[
-						"packagelist",
-						"Package Control: List Packages"
-					],
-					[
-						"package list",
-						"Package Control: List Packages"
-					],
-					[
-						"installapa",
-						"Package Control: Install Package"
-					],
-					[
-						"open",
-						"PackageResourceViewer: Open Resource"
-					],
-					[
-						"color",
-						"GutterColor: Clear Cache"
-					],
-					[
-						"openre",
-						"PackageResourceViewer: Open Resource"
-					],
-					[
-						"extr",
-						"PackageResourceViewer: Extract Package"
-					],
-					[
-						"installpa",
-						"Package Control: Install Package"
-					],
-					[
-						"removepa",
-						"Package Control: Remove Package"
-					],
-					[
-						"removep	a",
-						"Package Control: Remove Package"
-					],
-					[
-						"ressour",
-						"PackageResourceViewer: Open Resource"
-					],
-					[
-						"extract",
-						"PackageResourceViewer: Extract Package"
-					],
-					[
-						"package",
-						"PackageResourceViewer: Open Resource"
-					],
-					[
-						"package ",
-						"PackageResourceViewer: Extract Package"
-					],
-					[
-						"colors",
-						"ColorSchemeSelector: Select Color Scheme"
-					],
-					[
-						"colos",
-						"ColorSchemeSelector: Select Color Scheme"
-					],
-					[
-						"colo",
-						"ColorSchemeSelector: Select Color Scheme"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"colorshe",
-						"ColorSchemeSelector: Select Color Scheme"
-					],
-					[
-						"multieditu",
-						"MultiEditUtils: Split selection"
-					],
-					[
-						"multi",
-						"MultiEditUtils: Multi FindAll"
-					],
-					[
-						"remove",
-						"Package Control: Remove Package"
-					],
-					[
-						"remo",
-						"Package Control: Remove Package"
-					],
-					[
-						"remove pa",
-						"Package Control: Remove Package"
-					],
-					[
-						"colort",
-						"ColorSchemeSelector: Select Color Scheme"
-					],
-					[
-						"prett",
-						"HTMLPrettify"
-					],
-					[
-						"sublimelinter",
-						"SublimeLinter: Show All Errors"
-					],
-					[
-						"siblimelin",
-						"SublimeLinter: No Column Highlights Entire Line"
-					],
-					[
-						"packalist",
-						"Package Control: List Packages"
-					],
-					[
-						"synta late",
-						"Set Syntax: LaTeX"
-					],
-					[
-						"synta latex",
-						"Set Syntax: LaTeX"
-					],
-					[
-						"select color",
-						"ColorSchemeSelector: Select Color Scheme"
-					],
-					[
-						"colorsh",
-						"ColorSchemeSelector: Select Color Scheme"
-					],
-					[
-						"syntax php",
-						"Set Syntax: PHP"
-					],
-					[
-						"ori resto",
-						"Origami: Restore Saved Layout"
-					],
-					[
-						"orisave",
-						"Origami: Save Current Layout"
-					],
-					[
-						"origa sav",
-						"Origami: Save Current Layout"
-					],
-					[
-						"origami des",
-						"Origami: Destroy Current Pane"
-					],
-					[
-						"origam",
-						"Origami: Destroy Current Pane"
-					],
-					[
-						"packa",
-						"Package Control: Remove Package"
-					],
-					[
-						"set syn late",
-						"Set Syntax: LaTeX Extended"
-					],
-					[
-						"set sy latex",
-						"Set Syntax: LaTeX Extended"
-					],
-					[
-						"packa remove",
-						"Package Control: Remove Package"
-					],
-					[
-						"set synt late",
-						"Set Syntax: LaTeX Extended"
-					],
-					[
-						"snippet make",
-						"SnippetMaker: Make Snippet"
-					],
-					[
-						"edit snipp",
-						"SnippetMaker: Edit Snippet"
-					],
-					[
-						"set synt latex",
-						"Set Syntax: LaTeX Extended"
-					],
-					[
-						"setsynt latexin",
-						"Set Syntax: LaTeXing"
-					],
-					[
-						"snippet ed",
-						"SnippetMaker: Edit Snippet"
-					],
-					[
-						"setsynt latex",
-						"Set Syntax: LaTeX Extended"
-					],
-					[
-						"css",
-						"Set Syntax: CSS3"
-					],
-					[
-						"scss",
-						"Set Syntax: SCSS"
-					],
-					[
-						"css3",
-						"Set Syntax: CSS3"
-					],
-					[
-						"instlal",
-						"Package Control: Install Package"
-					],
-					[
-						"latexing",
-						"LaTeXing: Fill"
-					],
-					[
-						"snippetma",
-						"SnippetMaker: Make Snippet"
-					],
-					[
-						"snippet",
-						"SnippetMaker: Make Snippet"
-					],
-					[
-						"c++",
-						"Set Syntax: C++"
-					],
-					[
-						"snippetmae",
-						"SnippetMaker: Edit Snippet"
-					],
-					[
-						"package ins",
-						"Package Control: Install Package"
-					],
-					[
-						"snippet mak",
-						"SnippetMaker: Edit Snippet"
-					],
-					[
-						"ope",
-						"LaTeXing: Open PDF"
-					],
-					[
-						"sftp",
-						"SFTP: Browse Server…"
-					],
-					[
-						"stfp",
-						"SFTP: Browse Server…"
-					],
-					[
-						"build",
-						"Build With: LaTeX - Choose Quick Build"
-					],
-					[
-						"clean la",
-						"LaTeXing: Clean up (Remove) all Nonessential Files"
-					],
-					[
-						"cleanla",
-						"LaTeXing: Clean up (Remove) all Nonessential Files"
-					],
-					[
-						"openpf",
-						"LaTeXing: Open PDF"
-					],
-					[
-						"openpf	",
-						"LaTeXing: Open PDF"
-					],
-					[
-						"clean late",
-						"LaTeXing: Clean up (Remove) all Nonessential Files"
-					],
-					[
-						"openpd	",
-						"LaTeXing: Open PDF"
-					],
-					[
-						"latex build",
-						"Build With: LaTeX - Choose Quick Build"
-					],
-					[
-						"clean",
-						"Build With: LaTeX - Clean up Files"
-					],
-					[
-						"openp",
-						"LaTeXing: Open PDF"
-					],
-					[
-						"build late",
-						"Build With: LaTeX"
-					],
-					[
-						"openpd",
-						"LaTeXing: Open PDF"
-					],
-					[
-						"open pd",
-						"LaTeXing: Open PDF"
-					],
-					[
-						"latex",
-						"Set Syntax: LaTeXing"
-					],
-					[
-						"clear",
-						"LaTeXing: Clean up (Remove) all Nonessential Files"
-					],
-					[
-						"open p",
-						"LaTeXing: Open PDF"
-					],
-					[
-						"latex clear",
-						"LaTeXing: Clean up (Remove) all Nonessential Files"
-					],
-					[
-						"latex clean",
-						"LaTeXing: Clean up (Remove) all Nonessential Files"
-					],
-					[
-						"latex pdf",
-						"LaTeXing: Open PDF"
-					],
-					[
-						"latex clea",
-						"LaTeXing: Clean up (Remove) all Nonessential Files"
-					],
-					[
-						"latex buid",
-						"LaTeX-Plus: Build"
-					],
-					[
-						"pdf ",
-						"LaTeXing: Open PDF"
-					],
-					[
-						"php",
-						"Set Syntax: PHP"
-					],
-					[
-						"package remove",
-						"Package Control: Remove Package"
-					],
-					[
-						"packageremo",
-						"Package Control: Remove Package"
-					],
-					[
-						"pacins",
-						"Package Control: Install Package"
-					],
-					[
-						"bash",
-						"Set Syntax: Shell Script (Bash)"
-					],
-					[
-						"javasc",
-						"Set Syntax: JavaScript"
-					],
-					[
-						"javas",
-						"Set Syntax: JavaScript"
-					],
-					[
-						"packageex",
-						"PackageResourceViewer: Extract Package"
-					],
-					[
-						"pakage ",
-						"PackageResourceViewer: Extract Package"
-					],
-					[
-						"install pa",
-						"Package Control: Install Package"
-					],
-					[
-						"intallpa",
-						"Package Control: Install Package"
-					],
-					[
-						"packain",
-						"Package Control: Install Package"
-					],
-					[
-						"termina",
-						"Preferences: Terminal Key Bindings – Default"
-					],
-					[
-						"c++11",
-						"Set Syntax: C++11"
-					],
-					[
-						"",
-						"Build With: C++11"
-					],
-					[
-						"packali",
-						"Package Control: List Packages"
-					],
-					[
-						"packalis",
-						"Package Control: List Packages"
-					],
-					[
-						"packains",
-						"Package Control: Install Package"
-					],
-					[
-						"package lis",
-						"Package Control: List Packages"
-					],
-					[
-						"list pa",
-						"Package Control: List Packages"
-					],
-					[
-						"packin",
-						"Package Control: Install Package"
-					],
-					[
-						"package vie",
-						"PackageResourceViewer: Open Resource"
-					],
-					[
-						"ressource",
-						"PackageResourceViewer: Open Resource"
-					],
-					[
-						"packageress",
-						"PackageResourceViewer: Open Resource"
-					],
-					[
-						"instll",
-						"Package Control: Install Package"
-					],
-					[
-						"remove a",
-						"Package Control: Remove Package"
-					],
-					[
-						"package remo",
-						"Package Control: Remove Package"
-					],
-					[
-						"git push",
-						"Git: Push Current Branch"
-					],
-					[
-						"git pu",
-						"Git: Push"
-					],
-					[
-						"git com",
-						"Git: Commit"
-					],
-					[
-						"git add",
-						"Git: Add Current File"
-					],
-					[
-						"snipp",
-						"SnippetMaker: Make Snippet"
-					],
-					[
-						"prv",
-						"PackageResourceViewer: Open Resource"
-					],
-					[
-						"install p",
-						"Package Control: Install Package"
-					],
-					[
-						"snippet if",
-						"Snippet: if … fi"
-					],
-					[
-						"snipper",
-						"SnippetMaker: Make Snippet"
-					],
-					[
-						"packa ins",
-						"Package Control: Install Package"
-					],
-					[
-						"gpus",
-						"Git: Push"
-					],
-					[
-						"git stat",
-						"Git: Status"
-					],
-					[
-						"git s",
-						"Git: Status"
-					],
-					[
-						"git st",
-						"Git: Show Tags"
-					]
-				],
-				"width": 579.0
-			},
-			"console":
-			{
-				"height": 139.0,
-				"history":
-				[
-					"cd",
-					"l",
-					"exit",
-					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
-				]
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/Default (Linux).sublime-keymap",
-				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/veille_techno.php",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Theme - Flatland/Flatland Dark.tmTheme",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Theme - Flatland/Flatland Dark.sublime-theme",
-				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/projets.php",
-				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/style.css",
-				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/index.php",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/Preferences.sublime-settings",
-				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/rapport_activite/rapport_activite.tex",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/MultiEditUtils/Default (Linux).sublime-keymap",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/AlignTab/AlignTab.sublime-settings",
-				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/function.php",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Origami/Default (Linux).sublime-keymap",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Origami/Origami.sublime-settings",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/Origami.sublime-settings",
-				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/profil.php",
-				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/contact.php",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeXTools/README.markdown",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/hl.sublime-snippet",
-				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/post.php",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeXing/Default.sublime-keymap",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeXing/LaTeXing.sublime-settings",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/txt.sublime-snippet",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/br.sublime-snippet",
-				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/profil.php",
-				"/home/knonn/Documents/dev/html&css/tmp/wfdi01/01 - Site de stream/Intégration/index.html",
-				"/home/knonn/Documents/dev/html&css/tmp/wfdi01/01 - Site de stream/Intégration/style.css",
-				"/home/knonn/tmp/prog.cpp",
-				"/home/knonn/tmp/test.cpp",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/FileHeader.sublime-settings",
-				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/rapport_activite/test.cpp",
-				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/rapport_activite/lol.php",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeXing/LaTeX.sublime-build",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/gls.sublime-snippet",
-				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/doc_presentation_orale/presentation.tex",
-				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/presentation_orale/presentation.tex",
-				"/tmp/sublime-sftp-browse-1433255980/pi_ext/home/pi/portfolio/index.php",
-				"/tmp/sublime-sftp-browse-1433255995/pi_ext/home/pi/portfolio/mobile.css",
-				"/tmp/sublime-sftp-browse-1433255995/pi_ext/home/pi/portfolio/styles.css",
-				"/tmp/sublime-sftp-browse-1433255921/pi_ext/home/pi/portfolio/index.php",
-				"/tmp/sublime-sftp-browse-1433255936/pi_ext/home/pi/portfolio/styles.css",
-				"/tmp/sublime-sftp-browse-1433255014/pi_ext/home/pi/portfolio/styles.css",
-				"/tmp/sublime-sftp-browse-1433255030/pi_ext/home/pi/portfolio/content/projets.php",
-				"/tmp/sublime-sftp-browse-1433255022/pi_ext/home/pi/portfolio/functions.php",
-				"/tmp/sublime-sftp-browse-1433255005/pi_ext/home/pi/portfolio/index.php",
-				"/tmp/sublime-sftp-browse-1433254976/pi_ext/home/pi/portfolio/index.html",
-				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/rapport_activite.tex",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeXing/Default (Linux).sublime-keymap",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/LaTeXing.sublime-settings",
-				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/makeglo.sh",
-				"/home/knonn/Documents/si5/TP/TP10 04-05-2015/scripts/tp9/lecturesh.sh",
-				"/home/knonn/Documents/si5/TP/TP10 04-05-2015/scripts/tp9/iter2.sh",
-				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/test.tex",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/header/PHP.tmpl",
-				"/home/knonn/Documents/dev/plugins web/Skyyart Project/app.js",
-				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/test/lib/main.js",
-				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/test/package.json",
-				"/home/knonn/Bureau/zerator/chrome/content/background.js",
-				"/home/knonn/Documents/dev/plugins web/Skyyart Project/index.html",
-				"/home/knonn/Documents/dev/html&css/MonProjet/index.php",
-				"/home/knonn/Documents/dev/html&css/MonProjet/style.css",
-				"/home/knonn/Documents/dev/plugins web/chat socket.io/index.html",
-				"/home/knonn/Documents/dev/plugins web/Skyyart Project/refresh.html",
-				"/home/knonn/Documents/maths/Harshad/main.cpp",
-				"/home/knonn/Documents/maths/Harshad/test.js",
-				"/home/knonn/Documents/maths/Harshad/lol.js",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/test.js",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/test1.js",
-				"/tmp/sublime-sftp-browse-1431860263/pi_lan/home/pi/skyyart/app.js",
-				"/tmp/sublime-sftp-browse-1431860271/pi_lan/home/pi/skyyart/index.html",
-				"/home/knonn/Bureau/index.html",
-				"/home/knonn/Bureau/app.js",
-				"/tmp/sublime-sftp-browse-1431859410/pi_lan/var/www/test/test.html",
-				"/tmp/sublime-sftp-browse-1431859276/pi_lan/var/www/test/index.html",
-				"/tmp/sublime-sftp-browse-1431859314/pi_lan/var/www/test/app.js",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/sftp_servers/pi_lan",
-				"/home/knonn/.private/Remix - Project 7.15.txt",
-				"/home/knonn/Private/Remix - Project 7.15.txt",
-				"/home/knonn/Private/test.txt",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/header/Go.tmpl",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/header/lol",
-				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp10/scriptappel.sh",
-				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp10/scriptfichier.sh",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/ShellScript/Miscellaneous.tmPreferences",
-				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp10/new_acc.sh",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/ShellScript/Comments.tmPreferences",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/ShellScript/Completion Rules.tmPreferences",
-				"/home/knonn/Documents/dev/newscreen.sh",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/ShellScript/case-..-esac-(case).sublime-snippet",
-				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp10/appelsp.sh",
-				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp10/sp.sh",
-				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp10/yesorno.sh",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/FileHeader.sublime-settings",
-				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp10/test.sh",
-				"/home/knonn/Documents/si5/TP/TP10 04-05-2015/scripts/tp7/ex9.sh",
-				"/home/knonn/Documents/si5/TP/TP10 04-05-2015/scripts/tp7/ex11.sh",
-				"/home/knonn/Documents/si5/TP/TP10 04-05-2015/scripts/tp7/bonjour1.sh",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/readp.sublime-snippet",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/read.sublime-snippet",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/body/ShellScript.tmpl",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/header/ShellScript.tmpl",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/header/Batch File.tmpl",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/body/Batch File.tmpl",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
-				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp9/acc_check.sh",
-				"/home/knonn/modele.tex",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeX-Plus/README.md",
-				"/home/knonn/Documents/maths/Harshad/lol2.cpp",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/body/C++11.tmpl",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/header/C++11.tmpl",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/header/C.tmpl",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/body/C++.tmpl",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/header/C#.tmpl",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/header/C++.tmpl",
-				"/home/knonn/Documents/maths/Harshad/lol.cpp",
-				"/home/knonn/Documents/maths/Harshad/main2.cpp",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/LOL.cpp",
-				"/home/knonn/tmp/main.cpp",
-				"/home/knonn/tmp/lol.cpp",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/while.sublime-snippet",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/scanf.sublime-snippet",
-				"/home/knonn/Bureau/test.cpp",
-				"/home/knonn/Documents/Archives/ppe/missions/site internet/new_site_github/styles.css",
-				"/home/knonn/Documents/dev/give_me_an_ip.sh",
-				"/home/knonn/Documents/Documentation-Linux/Unity-tweaks.txt",
-				"/tmp/sublime-sftp-browse-1430727501/pi_ext/var/www/psite/index.html",
-				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/sftp_servers/pi_ext"
-			],
-			"find":
-			{
-				"height": 37.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-					"$res",
-					"res",
-					"stage",
-					"content",
-					"aimedehaire",
-					"lolilol",
-					"COMPLETER",
-					"lolilol",
-					"COMPLETER",
-					"variable",
-					"php",
-					"variable",
-					"div",
-					"=\"\">",
-					"li",
-					"; ",
-					"f7f7f7",
-					"La flèche",
-					"3",
-					"5",
-					"cor",
-					"pdf",
-					"build pdf",
-					"\\gls{IPDiva}",
-					"SSL",
-					"IPDiva",
-					".\n",
-					"/* \n* @Author: Knonn\n* @Date:   2015-05-20 16:25:04\n* @Last Modified by:   Romain Besland\n* @Last Modified time: 2015-05-21 16:23:36\n*/\n\n//Constants\nvar $ = require('toolkit/loader.js'); 	\n//var key_skyyart = 'x2m6m14';\nvar key_skyyart = 'x15ngku';\nvar chaine = 'Skyyart';\nvar message = 'Skyyart est en live !';\nvar params = [\"3d\",\"access_error\",\"ads\",\"allow_comments\",\"allow_embed\",\"allowed_in_groups\",\"allowed_in_playlists\",\"aspect_ratio\",\"audience\",\"auto_record\",\"available_formats\",\"bookmarks_total\",\"broadcasting\",\"channel\",\"cleeng_svod_offer_id\",\"cleeng_tvod_offer_id\",\"comments_total\",\"country\",\"created_time\",\"description\",\"duration\",\"embed_html\",\"embed_url\",\"encoding_progress\",\"end_time\",\"event_delete\",\"event_live_offair\",\"event_live_onair\",\"event_modify\",\"explicit\",\"filmstrip_small_url\",\"genre\",\"geoblocking\",\"geoloc\",\"id\",\"isrc\",\"language\",\"live_frag_publish_url\",\"live_publish_url\",\"mediablocking\",\"metadata_credit_actors\",\"metadata_credit_director\",\"metadata_genre\",\"metadata_original_language\",\"metadata_original_title\",\"metadata_released\",\"metadata_show_episode\",\"metadata_show_season\",\"metadata_visa\",\"mode\",\"moderated\",\"modified_time\",\"muyap\",\"onair\",\"owner\",\"paywall\",\"poster\",\"poster_135x180_url\",\"poster_180x240_url\",\"poster_270x360_url\",\"poster_360x480_url\",\"poster_45x60_url\",\"poster_90x120_url\",\"poster_url\",\"price_details\",\"private\",\"published\",\"rating\",\"ratings_total\",\"recurrence\",\"rental_duration\",\"rental_price\",\"rental_price_formatted\",\"rental_start_time\",\"sharing_urls\",\"soundtrack_info\",\"sources\",\"start_time\",\"status\",\"stream_h264_hd1080_url\",\"stream_h264_hd_url\",\"stream_h264_hq_url\",\"stream_h264_ld_url\",\"stream_h264_url\",\"stream_source_url\",\"strongtags\",\"svod\",\"swf_url\",\"sync_allowed\",\"tags\",\"taken_time\",\"thumbnail_120_url\",\"thumbnail_180_url\",\"thumbnail_240_url\",\"thumbnail_360_url\",\"thumbnail_480_url\",\"thumbnail_60_url\",\"thumbnail_720_url\",\"thumbnail_url\",\"title\",\"tvod\",\"type\",\"upc\",\"url\",\"views_last_day\",\"views_last_hour\",\"views_last_month\",\"views_last_week\",\"views_total\"];\n\nvar url_site = 'http://skyyart.fr/';\n\n//Globals vars\nvar LiveOnAir = \"false\";\nvar notif = true;\nvar ui = require(\"sdk/ui/button/action\");\nvar tabs = require(\"sdk/tabs\");\nvar self = require(\"sdk/self\");\nvar myIconURL = self.data.url(\"icon.png\");\n\n\nvar action_button = ui.ActionButton({\n	id: \"my-button\",\n	label: \"Skyyart Live\",\n	icon: {\n		\"16\": \"./live_off.png\",\n		\"64\": \"./icon.png\"\n	},\n	onClick: webLink\n});\n\nfunction doNotif() {\n	var notifications = require(\"sdk/notifications\");\n	notifications.notify({\n		title: \"Skyyart - Online\",\n		text: \"Skyyart est en Live !\",\n		iconURL: myIconURL,\n		onClick: webLink\n	});\n}\n\nfunction setIcon(on) {\n	if(LiveOnAir == true){\n		action_button.state(\"window\", {\n			\"label\": \"Skyyart Live is ON\",\n			\"icon\": {\n				\"16\": \"./live_on.png\"\n			}\n		});\n	}\n	else {\n		action_button.state(\"window\", {\n			\"label\": \"Skyyart Live\",\n			\"icon\": {\n				\"16\": \"./live_off.png\"\n			}\n		});\n	}\n};\n\nfunction webLink(state) {\n	tabs.open(url_site);\n}\n\nfunction CheckLiveStatus(){\n	var daily = \"https://api.dailymotion.com/video/\" + key_skyyart + \"?fields=onair,\" + params[Math.floor(Math.random() * 109)] + \",\" + params[Math.floor(Math.random() * 109)] + \",\" + params[Math.floor(Math.random() * 109)];\n	var Request = require(\"sdk/request\").Request;\n	var quijote = Request({\n		url: daily,\n		overrideMimeType: \"text/plain; charset=latin1\",\n		onComplete: function (response) {\n			LiveOnAir = response.text;\n			LiveOnAir = LiveOnAir.match(/.{1,9}/g)[1];\n			LiveOnAir = LiveOnAir.match(/.{1,4}/g)[0];\n			console.log(LiveOnAir);\n		}\n	});\n	quijote.get();\n	\n	console.log(5+5);\n	if(LiveOnAir == \"true\"){\n		if (notif) {\n			notif = false;\n			doNotif();\n		}\n		setIcon(true);\n	}\n	else {\n		notif = true;\n		setIcon(false);\n	}\n}\n\n}\n\n\nfunction DoWork(){\n	CheckLiveStatus();\n}\n\nDoWork();\nsetInterval(DoWork,16000);",
-					");\n",
-					"];\n",
-					"terminator",
-					"punctuation.terminator",
-					"ponctuation.terminator",
-					"case",
-					" 1; ct < 100; n++)\n	m=n;\n	while (m>0)\n	{\n		sommeChiffres = sommeChiffres + m%10;\n		m = m/10;\n	}\n\n	r = n % sommeChiffres;\n\n	if (r == 0)\n	{\n		printf(\"Ce nombre est un nombre de Harshad\\n\");\n		ct++;\n	}\n	else\n	{\n		printf(\"Ce nombre n'est pas un nombre de Harshad\\n\");\n	}",
-					"\n	while (m>0)\n	{\n		sommeChiffres = sommeChiffres + m%10;\n		m = m/10;\n	}\n\n	r = n % sommeChiffres;\n\n	if (r == 0)\n	{\n		printf(\"Ce nombre est un nombre de Harshad\\n\");\n		ct++;\n	}\n	else\n	{\n		printf(\"Ce nombre n'est pas un nombre de Harshad\\n\");\n	}",
-					"\n	n3 = n1-n2;\n	printf(\"%d\\n\", n3);\n\n	// while ()\n	// Conversion n1 dans liste[count]\n	*liste = convert(n3,count);\n\n	// Tri du nombre dans un ordre décroissant\n	n1 = decroissant(*liste,count);\n	printf(\"%d\\n\", n1);\n\n	n2 = croissant(*liste,count);\n	printf(\"%d\\n\", n",
-					"count",
-					"liste",
-					"#menu {\n	display: block;\n	height: 50px;\n	width: auto;\n	position: relative;\n	transform: translateX(-50%);\n	left: 50%;\n}\n",
-					"<!"
-				],
-				"highlight": false,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-					"alp",
-					"IPDiva",
-					"nb",
-					"lst"
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"incremental_find":
-			{
-				"height": 25.0
-			},
-			"input":
-			{
-				"height": 33.0
-			},
-			"menu_visible": true,
-			"output.exec":
-			{
-				"height": 110.0
-			},
-			"output.find_results":
-			{
-				"height": 0.0
-			},
-			"output.sftp":
-			{
-				"height": 110.0
-			},
-			"pinned_build_system": "",
-			"replace":
-			{
-				"height": 46.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-					[
-						"",
-						"~/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/rapport_activite.tex"
-					],
-					[
-						"st",
-						"style.css"
-					],
-					[
-						"inde",
-						"index.php"
-					]
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 500.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 380.0
-			},
-			"select_symbol":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": true,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 211.0,
-			"status_bar_visible": true,
-			"template_settings":
-			{
-			}
-		},
-		"new_window_width": 0.0
-	},
-	"windows":
-	[
 		{
 			"auto_complete":
 			{
@@ -1312,34 +258,6 @@
 					]
 				]
 			},
-			"buffers":
-			[
-				{
-					"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome 2.0/background.js",
-					"settings":
-					{
-						"buffer_size": 1513,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/lib/main.js",
-					"settings":
-					{
-						"buffer_size": 2402,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/package.json",
-					"settings":
-					{
-						"buffer_size": 337,
-						"line_ending": "Windows"
-					}
-				}
-			],
-			"build_system": "Packages/LaTeXing/LaTeX.sublime-build",
 			"build_system_choices":
 			[
 				[
@@ -1912,17 +830,10 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
-			"expanded_folders":
-			[
-				"/home/knonn/Documents/dev/plugins web/Extention Skyyart",
-				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox",
-				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart",
-				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/data",
-				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/lib"
-			],
 			"file_history":
 			[
 				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/package.json",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/lib/main.js",
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/FileHeader.sublime-settings",
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/Preferences.sublime-settings",
 				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome 2.0/background.js",
@@ -1936,7 +847,6 @@
 				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome/Skyyart/background.js",
 				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome/Skyyart/manifest.json",
 				"/media/knonn/7B01704F68D77F46/MDP.txt",
-				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/lib/main.js",
 				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/diaporama/diaporama.tex",
 				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Git GUI Clients/Git GUI Clients.sublime-settings",
 				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/rapport_activite/rapport_activite.tex",
@@ -2144,6 +1054,1132 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 110.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.sftp":
+			{
+				"height": 110.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 46.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"~/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/rapport_activite.tex"
+					],
+					[
+						"st",
+						"style.css"
+					],
+					[
+						"inde",
+						"index.php"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 227.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1276.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"function",
+						"function〔keyword〕"
+					],
+					[
+						"my",
+						"mysqlgetbyid	(function.php)"
+					],
+					[
+						"isset",
+						"isset〔keyword〕"
+					],
+					[
+						"mysqli_fet",
+						"mysqli_fetch_assoc〔function〕"
+					],
+					[
+						"square",
+						"squarelittlebtn"
+					],
+					[
+						"hfill",
+						"hlinefill	latex-document"
+					],
+					[
+						"MYSQL",
+						"MYSQL_ASSOC〔constant〕"
+					],
+					[
+						"mysqlfet",
+						"mysql_fetch_array"
+					],
+					[
+						"row",
+						"row1	(contact.php)"
+					],
+					[
+						"hspa",
+						"hspace{length}	latex-document"
+					],
+					[
+						"end",
+						"end{minipage}	rapport_activite.tex"
+					],
+					[
+						"minipa",
+						"begin{minipage}{width}	latex-document"
+					],
+					[
+						"hline",
+						"hline	latex-document"
+					],
+					[
+						"url",
+						"url()"
+					],
+					[
+						"inline",
+						"inline-block"
+					],
+					[
+						"vertical",
+						"vertical-align"
+					],
+					[
+						"table",
+						"table-cell"
+					],
+					[
+						"margin",
+						"margin"
+					],
+					[
+						"incl",
+						"incl	include …"
+					],
+					[
+						"cent",
+						"centerline{text}	latex-l2tabu"
+					],
+					[
+						"item",
+						"begin{itemize}\\item	latex-document"
+					],
+					[
+						"beginitem",
+						"begin{itemize}\\item	latex-document"
+					],
+					[
+						"gls",
+						"glossary{text}	latex-document"
+					],
+					[
+						"usepa",
+						"usepackage{package}	latex-document"
+					],
+					[
+						"fichier",
+						"fichiercut"
+					],
+					[
+						"pdf",
+						"pdflatex"
+					],
+					[
+						"gra",
+						"\\includegraphics{}"
+					],
+					[
+						"read",
+						"readyState	Document"
+					],
+					[
+						"Live",
+						"LiveOnAir"
+					],
+					[
+						"player",
+						"player_after"
+					],
+					[
+						"swf",
+						"swfobject"
+					],
+					[
+						"embed",
+						"embed"
+					],
+					[
+						"outu",
+						"output"
+					],
+					[
+						"outp",
+						"output"
+					],
+					[
+						"getele",
+						"getElementById(${0:id})	Element"
+					],
+					[
+						"play",
+						"player_playVideo"
+					],
+					[
+						"click",
+						"clickonbutton"
+					],
+					[
+						"bod",
+						"body	Tag"
+					],
+					[
+						"l",
+						"les"
+					],
+					[
+						"su",
+						"\\subsection{}"
+					],
+					[
+						"if",
+						"if	If Condition"
+					],
+					[
+						"lis",
+						"liste"
+					],
+					[
+						"liste",
+						"liste2"
+					],
+					[
+						"u",
+						"utilisateur"
+					],
+					[
+						"bash",
+						"bash	Entête bash"
+					],
+					[
+						"prin",
+						"printf	printf …"
+					],
+					[
+						"retur",
+						"return"
+					],
+					[
+						"trans",
+						"transition	CSS - transition: ;"
+					],
+					[
+						"lol",
+						"lolilol"
+					],
+					[
+						"b",
+						"inline-block"
+					],
+					[
+						"z",
+						"z-index"
+					],
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"fonts",
+						"font-style"
+					],
+					[
+						"inli",
+						"inline-block"
+					],
+					[
+						"max",
+						"max-height"
+					],
+					[
+						"margi",
+						"margin-left"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome 2.0/background.js",
+					"settings":
+					{
+						"buffer_size": 1811,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "Packages/LaTeXing/LaTeX.sublime-build",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/LaTeXing/LaTeX.sublime-build",
+							""
+						],
+						[
+							"Packages/LaTeXing/LaTeX.sublime-build",
+							"Primary Quick Build"
+						],
+						[
+							"Packages/LaTeXing/LaTeX.sublime-build",
+							"Choose Quick Build"
+						],
+						[
+							"Packages/LaTeXing/LaTeX.sublime-build",
+							"Clean up Files"
+						]
+					],
+					[
+						"Packages/LaTeXing/LaTeX.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 252.0,
+				"last_filter": "instll",
+				"selected_items":
+				[
+					[
+						"instll",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"upgrade",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"clean",
+						"LaTeXing: Clean up (Remove) all Nonessential Files"
+					],
+					[
+						"package control",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"upgra",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"install pack",
+						"Package Control: Install Package"
+					],
+					[
+						"remove pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"upgr",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"package add",
+						"Package Control: Add Repository"
+					],
+					[
+						"extract",
+						"PackageResourceViewer: Extract Package"
+					],
+					[
+						"latexing bea",
+						"Set Syntax: LaTeXing Beamer"
+					],
+					[
+						"removepa",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Add Repository"
+					],
+					[
+						"installpa",
+						"Package Control: Install Package"
+					],
+					[
+						"reload",
+						"Emmet: Reload Extensions"
+					],
+					[
+						"latexing",
+						"LaTeXing: Check System"
+					],
+					[
+						"syncing",
+						"Package Syncing: Enable Syncing"
+					],
+					[
+						"package syn",
+						"Package Syncing: Disable Syncing"
+					],
+					[
+						"remove packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"install pa",
+						"Package Control: Install Package"
+					],
+					[
+						"comment",
+						"Emmet: Toggle Comment"
+					],
+					[
+						"package remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"packa",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"package u",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"emmet cmm",
+						"Emmet: Toggle Comment"
+					],
+					[
+						"findkey",
+						"FindKeyConflicts: All Key Maps to Buffer"
+					],
+					[
+						"key",
+						"FindKeyConflicts: Single Package Conflicts"
+					],
+					[
+						"quick ",
+						"Build With: LaTeX - Choose Quick Build"
+					],
+					[
+						"cleanall",
+						"LaTeXing: Clean up (Remove) all Nonessential Files"
+					],
+					[
+						"keyconf",
+						"FindKeyConflicts: Command Search"
+					],
+					[
+						"find",
+						"FindKeyConflicts: Multiple Package Conflicts"
+					],
+					[
+						"latex clean",
+						"LaTeXing: Clean up (Remove) all Nonessential Files"
+					],
+					[
+						"findke",
+						"FindKeyConflicts: Command Search"
+					],
+					[
+						"latex clea",
+						"LaTeXing: Clean up (Remove) all Nonessential Files"
+					],
+					[
+						"command",
+						"FindKeyConflicts: Command Search"
+					],
+					[
+						"latex bu",
+						"Build With: LaTeX - Choose Quick Build"
+					],
+					[
+						"latex cl",
+						"Build With: LaTeX - Clean up Files"
+					],
+					[
+						"quick build",
+						"Build With: LaTeX - Primary Quick Build"
+					],
+					[
+						"quick",
+						"Build With: LaTeX - Primary Quick Build"
+					],
+					[
+						"package list",
+						"Package Control: List Packages"
+					],
+					[
+						"packagelist",
+						"Package Control: List Packages"
+					],
+					[
+						"indent",
+						"Indentation: Convert to Tabs"
+					],
+					[
+						"bash",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						"installapa",
+						"Package Control: Install Package"
+					],
+					[
+						"open",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"color",
+						"GutterColor: Clear Cache"
+					],
+					[
+						"openre",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"extr",
+						"PackageResourceViewer: Extract Package"
+					],
+					[
+						"removep	a",
+						"Package Control: Remove Package"
+					],
+					[
+						"ressour",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"package",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"package ",
+						"PackageResourceViewer: Extract Package"
+					],
+					[
+						"colors",
+						"ColorSchemeSelector: Select Color Scheme"
+					],
+					[
+						"colos",
+						"ColorSchemeSelector: Select Color Scheme"
+					],
+					[
+						"colo",
+						"ColorSchemeSelector: Select Color Scheme"
+					],
+					[
+						"colorshe",
+						"ColorSchemeSelector: Select Color Scheme"
+					],
+					[
+						"multieditu",
+						"MultiEditUtils: Split selection"
+					],
+					[
+						"multi",
+						"MultiEditUtils: Multi FindAll"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"colort",
+						"ColorSchemeSelector: Select Color Scheme"
+					],
+					[
+						"prett",
+						"HTMLPrettify"
+					],
+					[
+						"sublimelinter",
+						"SublimeLinter: Show All Errors"
+					],
+					[
+						"siblimelin",
+						"SublimeLinter: No Column Highlights Entire Line"
+					],
+					[
+						"packalist",
+						"Package Control: List Packages"
+					],
+					[
+						"synta late",
+						"Set Syntax: LaTeX"
+					],
+					[
+						"synta latex",
+						"Set Syntax: LaTeX"
+					],
+					[
+						"select color",
+						"ColorSchemeSelector: Select Color Scheme"
+					],
+					[
+						"colorsh",
+						"ColorSchemeSelector: Select Color Scheme"
+					],
+					[
+						"syntax php",
+						"Set Syntax: PHP"
+					],
+					[
+						"ori resto",
+						"Origami: Restore Saved Layout"
+					],
+					[
+						"orisave",
+						"Origami: Save Current Layout"
+					],
+					[
+						"origa sav",
+						"Origami: Save Current Layout"
+					],
+					[
+						"origami des",
+						"Origami: Destroy Current Pane"
+					],
+					[
+						"origam",
+						"Origami: Destroy Current Pane"
+					],
+					[
+						"set syn late",
+						"Set Syntax: LaTeX Extended"
+					],
+					[
+						"set sy latex",
+						"Set Syntax: LaTeX Extended"
+					],
+					[
+						"packa remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"set synt late",
+						"Set Syntax: LaTeX Extended"
+					],
+					[
+						"snippet make",
+						"SnippetMaker: Make Snippet"
+					],
+					[
+						"edit snipp",
+						"SnippetMaker: Edit Snippet"
+					],
+					[
+						"set synt latex",
+						"Set Syntax: LaTeX Extended"
+					],
+					[
+						"setsynt latexin",
+						"Set Syntax: LaTeXing"
+					],
+					[
+						"snippet ed",
+						"SnippetMaker: Edit Snippet"
+					],
+					[
+						"setsynt latex",
+						"Set Syntax: LaTeX Extended"
+					],
+					[
+						"css",
+						"Set Syntax: CSS3"
+					],
+					[
+						"scss",
+						"Set Syntax: SCSS"
+					],
+					[
+						"css3",
+						"Set Syntax: CSS3"
+					],
+					[
+						"instlal",
+						"Package Control: Install Package"
+					],
+					[
+						"snippetma",
+						"SnippetMaker: Make Snippet"
+					],
+					[
+						"snippet",
+						"SnippetMaker: Make Snippet"
+					],
+					[
+						"c++",
+						"Set Syntax: C++"
+					],
+					[
+						"snippetmae",
+						"SnippetMaker: Edit Snippet"
+					],
+					[
+						"package ins",
+						"Package Control: Install Package"
+					],
+					[
+						"snippet mak",
+						"SnippetMaker: Edit Snippet"
+					],
+					[
+						"ope",
+						"LaTeXing: Open PDF"
+					],
+					[
+						"sftp",
+						"SFTP: Browse Server…"
+					],
+					[
+						"stfp",
+						"SFTP: Browse Server…"
+					],
+					[
+						"build",
+						"Build With: LaTeX - Choose Quick Build"
+					],
+					[
+						"clean la",
+						"LaTeXing: Clean up (Remove) all Nonessential Files"
+					],
+					[
+						"cleanla",
+						"LaTeXing: Clean up (Remove) all Nonessential Files"
+					],
+					[
+						"openpf",
+						"LaTeXing: Open PDF"
+					],
+					[
+						"openpf	",
+						"LaTeXing: Open PDF"
+					],
+					[
+						"clean late",
+						"LaTeXing: Clean up (Remove) all Nonessential Files"
+					],
+					[
+						"openpd	",
+						"LaTeXing: Open PDF"
+					],
+					[
+						"latex build",
+						"Build With: LaTeX - Choose Quick Build"
+					],
+					[
+						"openp",
+						"LaTeXing: Open PDF"
+					],
+					[
+						"build late",
+						"Build With: LaTeX"
+					],
+					[
+						"openpd",
+						"LaTeXing: Open PDF"
+					],
+					[
+						"open pd",
+						"LaTeXing: Open PDF"
+					],
+					[
+						"latex",
+						"Set Syntax: LaTeXing"
+					],
+					[
+						"clear",
+						"LaTeXing: Clean up (Remove) all Nonessential Files"
+					],
+					[
+						"open p",
+						"LaTeXing: Open PDF"
+					],
+					[
+						"latex clear",
+						"LaTeXing: Clean up (Remove) all Nonessential Files"
+					],
+					[
+						"latex pdf",
+						"LaTeXing: Open PDF"
+					],
+					[
+						"latex buid",
+						"LaTeX-Plus: Build"
+					],
+					[
+						"pdf ",
+						"LaTeXing: Open PDF"
+					],
+					[
+						"php",
+						"Set Syntax: PHP"
+					],
+					[
+						"packageremo",
+						"Package Control: Remove Package"
+					],
+					[
+						"pacins",
+						"Package Control: Install Package"
+					],
+					[
+						"javasc",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"javas",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"packageex",
+						"PackageResourceViewer: Extract Package"
+					],
+					[
+						"pakage ",
+						"PackageResourceViewer: Extract Package"
+					],
+					[
+						"intallpa",
+						"Package Control: Install Package"
+					],
+					[
+						"packain",
+						"Package Control: Install Package"
+					],
+					[
+						"termina",
+						"Preferences: Terminal Key Bindings – Default"
+					]
+				],
+				"width": 507.0
+			},
+			"console":
+			{
+				"height": 274.0,
+				"history":
+				[
+					"sublime_plugin.reload(latexing)",
+					"sublime.log_input(False)",
+					"sublime.log_input(True)",
+					"cd",
+					"l",
+					"exit",
+					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/admpanel",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome 2.0"
+			],
+			"file_history":
+			[
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/extension_development/lib/main.js",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome 2.0/background.js",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/lib/main.js",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/package.json",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/style.css",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/projets.php",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/admpanel/add.php",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome 2.0/manifest.json",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome 2.0/jquery.min.js",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/FileHeader.sublime-settings",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/panel.php",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/article.php",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/function.php",
+				"/run/user/1000/gvfs/smb-share:server=192.168.2.50,share=ressources_classes/psts2/SISR3/attributionIP labo2015.txt",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome/Skyyart/background.js",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome/Skyyart/manifest.json",
+				"/media/knonn/7B01704F68D77F46/MDP.txt",
+				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/diaporama/diaporama.tex",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Git GUI Clients/Git GUI Clients.sublime-settings",
+				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/rapport_activite/rapport_activite.tex",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Package Syncing/Package Syncing.sublime-settings",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/contact.php",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeXing/LaTeX.sublime-build",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/Default.sublime-keymap",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/LaTeXing.sublime-settings",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/Package Control.sublime-settings",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeXing/LaTeXing.sublime-settings",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeXing/Default (Linux).sublime-keymap",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/admpanel/remove.php",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/Emmet.sublime-settings",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/veille_techno.php",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeXing/Default.sublime-keymap",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/diaporama/test.html",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeXing/LaTeX/Indentation Rules.tmPreferences",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeX/Indentation Rules.tmPreferences",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/admpanel/dc.php",
+				"/home/knonn/texmf/tex/latex/knonn/diapo.tex",
+				"/home/knonn/texmf/tex/latex/knonn/create_diapo_project",
+				"/home/knonn/Documents/si5/TP/TP8 30-03-2015/scripts/tp8/efface.sh",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/index.php",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/profil.php",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/login.php",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/admpanel/list.php",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Gutter Color/GutterColor.sublime-settings",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/Default (Linux).sublime-keymap",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/MultiEditUtils/MultiEditUtils.sublime-settings",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/MultiEditUtils/Default (Linux).sublime-keymap",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Theme - Flatland/Flatland Dark.tmTheme",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Theme - Flatland/Flatland Dark.sublime-theme",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/AlignTab/AlignTab.sublime-settings",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Origami/Default (Linux).sublime-keymap",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/Origami/Origami.sublime-settings",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/Origami.sublime-settings",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/LaTeXTools/README.markdown",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/hl.sublime-snippet",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/content/post.php",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/txt.sublime-snippet",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/br.sublime-snippet",
+				"/home/knonn/Documents/dev/html&css/portfolio/Intégration/profil.php",
+				"/home/knonn/Documents/dev/html&css/tmp/wfdi01/01 - Site de stream/Intégration/index.html",
+				"/home/knonn/Documents/dev/html&css/tmp/wfdi01/01 - Site de stream/Intégration/style.css",
+				"/home/knonn/tmp/prog.cpp",
+				"/home/knonn/tmp/test.cpp",
+				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/rapport_activite/test.cpp",
+				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/rapport_activite/lol.php",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/gls.sublime-snippet",
+				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/doc_presentation_orale/presentation.tex",
+				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/presentation_orale/presentation.tex",
+				"/tmp/sublime-sftp-browse-1433255980/pi_ext/home/pi/portfolio/index.php",
+				"/tmp/sublime-sftp-browse-1433255995/pi_ext/home/pi/portfolio/mobile.css",
+				"/tmp/sublime-sftp-browse-1433255995/pi_ext/home/pi/portfolio/styles.css",
+				"/tmp/sublime-sftp-browse-1433255921/pi_ext/home/pi/portfolio/index.php",
+				"/tmp/sublime-sftp-browse-1433255936/pi_ext/home/pi/portfolio/styles.css",
+				"/tmp/sublime-sftp-browse-1433255014/pi_ext/home/pi/portfolio/styles.css",
+				"/tmp/sublime-sftp-browse-1433255030/pi_ext/home/pi/portfolio/content/projets.php",
+				"/tmp/sublime-sftp-browse-1433255022/pi_ext/home/pi/portfolio/functions.php",
+				"/tmp/sublime-sftp-browse-1433255005/pi_ext/home/pi/portfolio/index.php",
+				"/tmp/sublime-sftp-browse-1433254976/pi_ext/home/pi/portfolio/index.html",
+				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/rapport_activite.tex",
+				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/makeglo.sh",
+				"/home/knonn/Documents/si5/TP/TP10 04-05-2015/scripts/tp9/lecturesh.sh",
+				"/home/knonn/Documents/si5/TP/TP10 04-05-2015/scripts/tp9/iter2.sh",
+				"/home/knonn/Documents/stage/STS1 - Stage 1 (chs le bailleul)/dossiers_&_compte_rendu/test.tex",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/header/PHP.tmpl",
+				"/home/knonn/Documents/dev/plugins web/Skyyart Project/app.js",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/test/lib/main.js",
+				"/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/test/package.json",
+				"/home/knonn/Bureau/zerator/chrome/content/background.js",
+				"/home/knonn/Documents/dev/plugins web/Skyyart Project/index.html",
+				"/home/knonn/Documents/dev/html&css/MonProjet/index.php",
+				"/home/knonn/Documents/dev/html&css/MonProjet/style.css",
+				"/home/knonn/Documents/dev/plugins web/chat socket.io/index.html",
+				"/home/knonn/Documents/dev/plugins web/Skyyart Project/refresh.html",
+				"/home/knonn/Documents/maths/Harshad/main.cpp",
+				"/home/knonn/Documents/maths/Harshad/test.js",
+				"/home/knonn/Documents/maths/Harshad/lol.js",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/test.js",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/test1.js",
+				"/tmp/sublime-sftp-browse-1431860263/pi_lan/home/pi/skyyart/app.js",
+				"/tmp/sublime-sftp-browse-1431860271/pi_lan/home/pi/skyyart/index.html",
+				"/home/knonn/Bureau/index.html",
+				"/home/knonn/Bureau/app.js",
+				"/tmp/sublime-sftp-browse-1431859410/pi_lan/var/www/test/test.html",
+				"/tmp/sublime-sftp-browse-1431859276/pi_lan/var/www/test/index.html",
+				"/tmp/sublime-sftp-browse-1431859314/pi_lan/var/www/test/app.js",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/User/sftp_servers/pi_lan",
+				"/home/knonn/.private/Remix - Project 7.15.txt",
+				"/home/knonn/Private/Remix - Project 7.15.txt",
+				"/home/knonn/Private/test.txt",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/header/Go.tmpl",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/FileHeader/template/header/lol",
+				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp10/scriptappel.sh",
+				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp10/scriptfichier.sh",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/ShellScript/Miscellaneous.tmPreferences",
+				"/home/knonn/Documents/si5/TP/TP9 27-04-2015/scripts/tp10/new_acc.sh",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/ShellScript/Comments.tmPreferences",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/ShellScript/Completion Rules.tmPreferences",
+				"/home/knonn/Documents/dev/newscreen.sh",
+				"/home/knonn/Documents/mes-configs/Sublime Text 3/sublime-text-3/Packages/ShellScript/case-..-esac-(case).sublime-snippet"
+			],
+			"find":
+			{
+				"height": 37.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"10",
+					"on constate",
+					"toggle_comment",
+					"comment",
+					"ctrl+shift+/",
+					"ctrl+/",
+					"then",
+					"MISE EN",
+					"formulaire",
+					"textarea",
+					"footer",
+					"mise en forme",
+					"MISE EN FORME",
+					"h1",
+					"MISE EN FORME",
+					"Mise en forme",
+					"Commande",
+					"d_ploiement",
+					"$res",
+					"res",
+					"stage",
+					"content",
+					"aimedehaire",
+					"lolilol",
+					"COMPLETER",
+					"lolilol",
+					"COMPLETER",
+					"variable",
+					"php",
+					"variable",
+					"div",
+					"=\"\">",
+					"li",
+					"; ",
+					"f7f7f7",
+					"La flèche",
+					"3",
+					"5",
+					"cor",
+					"pdf",
+					"build pdf",
+					"\\gls{IPDiva}",
+					"SSL",
+					"IPDiva",
+					".\n",
+					"/* \n* @Author: Knonn\n* @Date:   2015-05-20 16:25:04\n* @Last Modified by:   Romain Besland\n* @Last Modified time: 2015-05-21 16:23:36\n*/\n\n//Constants\nvar $ = require('toolkit/loader.js'); 	\n//var key_skyyart = 'x2m6m14';\nvar key_skyyart = 'x15ngku';\nvar chaine = 'Skyyart';\nvar message = 'Skyyart est en live !';\nvar params = [\"3d\",\"access_error\",\"ads\",\"allow_comments\",\"allow_embed\",\"allowed_in_groups\",\"allowed_in_playlists\",\"aspect_ratio\",\"audience\",\"auto_record\",\"available_formats\",\"bookmarks_total\",\"broadcasting\",\"channel\",\"cleeng_svod_offer_id\",\"cleeng_tvod_offer_id\",\"comments_total\",\"country\",\"created_time\",\"description\",\"duration\",\"embed_html\",\"embed_url\",\"encoding_progress\",\"end_time\",\"event_delete\",\"event_live_offair\",\"event_live_onair\",\"event_modify\",\"explicit\",\"filmstrip_small_url\",\"genre\",\"geoblocking\",\"geoloc\",\"id\",\"isrc\",\"language\",\"live_frag_publish_url\",\"live_publish_url\",\"mediablocking\",\"metadata_credit_actors\",\"metadata_credit_director\",\"metadata_genre\",\"metadata_original_language\",\"metadata_original_title\",\"metadata_released\",\"metadata_show_episode\",\"metadata_show_season\",\"metadata_visa\",\"mode\",\"moderated\",\"modified_time\",\"muyap\",\"onair\",\"owner\",\"paywall\",\"poster\",\"poster_135x180_url\",\"poster_180x240_url\",\"poster_270x360_url\",\"poster_360x480_url\",\"poster_45x60_url\",\"poster_90x120_url\",\"poster_url\",\"price_details\",\"private\",\"published\",\"rating\",\"ratings_total\",\"recurrence\",\"rental_duration\",\"rental_price\",\"rental_price_formatted\",\"rental_start_time\",\"sharing_urls\",\"soundtrack_info\",\"sources\",\"start_time\",\"status\",\"stream_h264_hd1080_url\",\"stream_h264_hd_url\",\"stream_h264_hq_url\",\"stream_h264_ld_url\",\"stream_h264_url\",\"stream_source_url\",\"strongtags\",\"svod\",\"swf_url\",\"sync_allowed\",\"tags\",\"taken_time\",\"thumbnail_120_url\",\"thumbnail_180_url\",\"thumbnail_240_url\",\"thumbnail_360_url\",\"thumbnail_480_url\",\"thumbnail_60_url\",\"thumbnail_720_url\",\"thumbnail_url\",\"title\",\"tvod\",\"type\",\"upc\",\"url\",\"views_last_day\",\"views_last_hour\",\"views_last_month\",\"views_last_week\",\"views_total\"];\n\nvar url_site = 'http://skyyart.fr/';\n\n//Globals vars\nvar LiveOnAir = \"false\";\nvar notif = true;\nvar ui = require(\"sdk/ui/button/action\");\nvar tabs = require(\"sdk/tabs\");\nvar self = require(\"sdk/self\");\nvar myIconURL = self.data.url(\"icon.png\");\n\n\nvar action_button = ui.ActionButton({\n	id: \"my-button\",\n	label: \"Skyyart Live\",\n	icon: {\n		\"16\": \"./live_off.png\",\n		\"64\": \"./icon.png\"\n	},\n	onClick: webLink\n});\n\nfunction doNotif() {\n	var notifications = require(\"sdk/notifications\");\n	notifications.notify({\n		title: \"Skyyart - Online\",\n		text: \"Skyyart est en Live !\",\n		iconURL: myIconURL,\n		onClick: webLink\n	});\n}\n\nfunction setIcon(on) {\n	if(LiveOnAir == true){\n		action_button.state(\"window\", {\n			\"label\": \"Skyyart Live is ON\",\n			\"icon\": {\n				\"16\": \"./live_on.png\"\n			}\n		});\n	}\n	else {\n		action_button.state(\"window\", {\n			\"label\": \"Skyyart Live\",\n			\"icon\": {\n				\"16\": \"./live_off.png\"\n			}\n		});\n	}\n};\n\nfunction webLink(state) {\n	tabs.open(url_site);\n}\n\nfunction CheckLiveStatus(){\n	var daily = \"https://api.dailymotion.com/video/\" + key_skyyart + \"?fields=onair,\" + params[Math.floor(Math.random() * 109)] + \",\" + params[Math.floor(Math.random() * 109)] + \",\" + params[Math.floor(Math.random() * 109)];\n	var Request = require(\"sdk/request\").Request;\n	var quijote = Request({\n		url: daily,\n		overrideMimeType: \"text/plain; charset=latin1\",\n		onComplete: function (response) {\n			LiveOnAir = response.text;\n			LiveOnAir = LiveOnAir.match(/.{1,9}/g)[1];\n			LiveOnAir = LiveOnAir.match(/.{1,4}/g)[0];\n			console.log(LiveOnAir);\n		}\n	});\n	quijote.get();\n	\n	console.log(5+5);\n	if(LiveOnAir == \"true\"){\n		if (notif) {\n			notif = false;\n			doNotif();\n		}\n		setIcon(true);\n	}\n	else {\n		notif = true;\n		setIcon(false);\n	}\n}\n\n}\n\n\nfunction DoWork(){\n	CheckLiveStatus();\n}\n\nDoWork();\nsetInterval(DoWork,16000);",
+					");\n",
+					"];\n",
+					"terminator",
+					"punctuation.terminator",
+					"ponctuation.terminator",
+					"case",
+					" 1; ct < 100; n++)\n	m=n;\n	while (m>0)\n	{\n		sommeChiffres = sommeChiffres + m%10;\n		m = m/10;\n	}\n\n	r = n % sommeChiffres;\n\n	if (r == 0)\n	{\n		printf(\"Ce nombre est un nombre de Harshad\\n\");\n		ct++;\n	}\n	else\n	{\n		printf(\"Ce nombre n'est pas un nombre de Harshad\\n\");\n	}",
+					"\n	while (m>0)\n	{\n		sommeChiffres = sommeChiffres + m%10;\n		m = m/10;\n	}\n\n	r = n % sommeChiffres;\n\n	if (r == 0)\n	{\n		printf(\"Ce nombre est un nombre de Harshad\\n\");\n		ct++;\n	}\n	else\n	{\n		printf(\"Ce nombre n'est pas un nombre de Harshad\\n\");\n	}",
+					"\n	n3 = n1-n2;\n	printf(\"%d\\n\", n3);\n\n	// while ()\n	// Conversion n1 dans liste[count]\n	*liste = convert(n3,count);\n\n	// Tri du nombre dans un ordre décroissant\n	n1 = decroissant(*liste,count);\n	printf(\"%d\\n\", n1);\n\n	n2 = croissant(*liste,count);\n	printf(\"%d\\n\", n",
+					"count",
+					"liste",
+					"#menu {\n	display: block;\n	height: 50px;\n	width: auto;\n	position: relative;\n	transform: translateX(-50%);\n	left: 50%;\n}\n",
+					"<!"
+				],
+				"highlight": false,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"alp",
+					"IPDiva",
+					"nb",
+					"lst"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
 			"folders":
 			[
 				{
@@ -2162,56 +2198,40 @@
 						{
 							"buffer": 0,
 							"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Chrome 2.0/background.js",
-							"semi_transient": false,
+							"semi_transient": true,
 							"settings":
 							{
-								"buffer_size": 1513,
+								"buffer_size": 1811,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										167,
-										167
+										0,
+										0
 									]
 								],
 								"settings":
 								{
 									"BracketHighlighterBusy": false,
-									"auto_complete": false,
 									"bh_regions":
 									[
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
 										"bh_default",
 										"bh_default_center",
 										"bh_default_open",
 										"bh_default_close",
 										"bh_default_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
 										"bh_c_define",
 										"bh_c_define_center",
 										"bh_c_define_open",
@@ -2222,21 +2242,36 @@
 										"bh_regex_open",
 										"bh_regex_close",
 										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
 										"bh_unmatched",
 										"bh_unmatched_center",
 										"bh_unmatched_open",
 										"bh_unmatched_close",
 										"bh_unmatched_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content"
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
 									],
 									"c_time":
 									[
@@ -2268,10 +2303,10 @@
 										7,
 										223,
 										9,
-										6,
-										23,
-										31,
-										45,
+										14,
+										12,
+										59,
+										11,
 										0,
 										0,
 										0,
@@ -2285,292 +2320,11 @@
 										3,
 										46
 									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
 									"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						}
-					]
-				},
-				{
-					"selected": 1,
-					"sheets":
-					[
-						{
-							"buffer": 1,
-							"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/lib/main.js",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2402,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										170,
-										170
-									]
-								],
-								"settings":
-								{
-									"BracketHighlighterBusy": false,
-									"auto_complete": false,
-									"bh_regions":
-									[
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content"
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										223,
-										7,
-										17,
-										18,
-										46,
-										36,
-										0,
-										0,
-										0,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
-									"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/knonn/Documents/dev/plugins web/Extention Skyyart/Firefox/skyyart/package.json",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 337,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										223,
-										223
-									]
-								],
-								"settings":
-								{
-									"BracketHighlighterBusy": false,
-									"auto_complete": true,
-									"bh_regions":
-									[
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content"
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										223,
-										9,
-										7,
-										13,
-										25,
-										40,
-										0,
-										0,
-										0,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"syntax": "Packages/Seti_UI/Langs/npm JSON.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 216.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -2596,18 +2350,11 @@
 						0,
 						1,
 						1
-					],
-					[
-						1,
-						0,
-						2,
-						1
 					]
 				],
 				"cols":
 				[
 					0.0,
-					0.459094229365,
 					1.0
 				],
 				"rows":
@@ -2676,7 +2423,7 @@
 				],
 				"width": 0.0
 			},
-			"selected_group": 1,
+			"selected_group": 0,
 			"settings":
 			{
 			},

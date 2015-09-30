@@ -1,13 +1,13 @@
 {
-	"color_scheme": "Packages/Seti_UX/Seti.tmTheme",
+	"color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
 	"dictionary": "Packages/Language - French - Français/fr_FR.dic",
 	"draw_white_space": "all",
 	"font_face": "Source Code Pro",
 	"font_size": 10.5,
 	"ignored_packages":
 	[
-		"Vintage",
 		"JavaScript",
+		"Vintage",
 		"CSS"
 	],
 	"soda_classic_tabs": true,
