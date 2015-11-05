@@ -31,14 +31,14 @@ bindsym $mod+Return exec terminator
 bindsym $mod+Shift+A kill
 
 # start dmenu (a program launcher)
-#bindsym $mod+d exec j4-dmenu-desktop
-bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec j4-dmenu-desktop
+#bindsym $mod+d exec dmenu_run
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+m focus right
+#bindsym $mod+j focus left
+#bindsym $mod+k focus down
+#bindsym $mod+l focus up
+#bindsym $mod+m focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -47,10 +47,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+J move left
-bindsym $mod+Shift+K move down
-bindsym $mod+Shift+L move up
-bindsym $mod+Shift+M move right
+#bindsym $mod+Shift+J move left
+#bindsym $mod+Shift+K move down
+#bindsym $mod+Shift+L move up
+#bindsym $mod+Shift+M move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -114,8 +114,8 @@ bindsym XF86AudioLowerVolume exec amixer set Master 10%- unmute
 bindsym XF86AudioMute exec amixer -q set Master toggle
 
 # brightness control
-bindcode $mod+71 exec xbacklight - 10
-bindcode $mod+72 exec xbacklight + 10
+#bindcode $mod+71 exec xbacklight - 5
+#bindcode $mod+72 exec xbacklight + 5
 
 # reload the configuration file
 bindsym $mod+Shift+C reload
@@ -151,22 +151,23 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Appearance
-client.focused	    		#111111 #ffad33 #000000 #000000
-client.focused_inactive		#111111 #FFC266 #999999 #484e50
-#client.unfocused	    	$ac	$ac	$tx	$ac
-#client.urgent		    	$ia	$ia	$fg	$ia
+client.focused	    		#111111 #87CEFA #000000 #000000
+client.focused_inactive		#111111 #333333 #999999 #484e50
+client.unfocused        #333333 #424242 #888888 #292d2e
+client.urgent           #C10004 #900000 #ffffff #900000
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
+    tray_output eDP1
 	mode hide
     	#modifier Mod1
         status_command i3status --config ~/.i3status.conf
 	colors {
-		background #000000
-		statusline #ffffff
+		background #232323
+		statusline #DCDCDC
 		separator #666666
-		focused_workspace #111111 #ffad33 #000000
+		focused_workspace #111111 #87CEFA #000000
 		active_workspace #333333 #5f676a #ffffff
 		inactive_workspace #333333 #222222 #888888
 		urgent_workspace #2f343a #900000 #ffffff
@@ -174,19 +175,20 @@ bar {
 }
 
 # Kill service notify
-exec killall -q fsnotify_mark
+exec --no-startup-id killall -q fsnotify_mark
 
 # Demarrage
-exec nm-applet
+exec --no-startup-id nm-applet
 exec --no-startup-id xsetroot -solid "#000000"
 exec --no-startup-id /usr/bin/xset b off s off -dpms
-exec owncloud
-exec xfce4-power-manager
-exec compton
+exec --no-startup-id seafile-applet
+exec --no-startup-id xfce4-power-manager
+exec --no-startup-id compton
 exec --no-startup-id dunst -config ~/.config/dunst/dunst.conf
+#exec --no-startup-id gnome-settings-daemon
 
 # Wallpaper
-exec feh --bg-scale /usr/share/backgrounds/gnome/adwaita-night.jpg
+exec --no-startup-id feh --bg-scale ~/Documents/images/geek.jpg
 
 # Start terminal on workspace 2, then focus workspace 1
 #exec --no-startup-id i3-msg 'workspace 9: VPN; exec terminator; workspace 1'
@@ -199,8 +201,10 @@ workspace_auto_back_and_forth yes
 # bind persos
 bindsym $mod+i exec iceweasel
 bindsym $mod+n exec /usr/bin/nautilus
-bindsym $mod+control+l exec i3lock --color=111111 --nofork
+bindsym $mod+l exec i3lock --color=111111 --nofork
 bindsym $mod+b border toggle
-bindsym XF86Display exec /usr/bin/terminator --command="nscreen n"
-bindsym Print exec /usr/bin/gnome-screenshot -f ~/Images/screenshot-$(date "+%Y%m%d-%H%M%S").png -w
-bindsym Control+Mod1+Print exec /usr/bin/gnome-screenshot -f ~/Images/screenshot-$(date "+%Y%m%d-%H%M%S").png -a
+bindsym XF86Display exec terminator -x ~/Documents/dev/newscreen.sh n
+bindsym Print exec /usr/bin/gnome-screenshot --interactive
+bindsym $mod+m exec terminator -x ~/Documents/dev/newscreen.sh off
+bindsym $mod+Shift+parenright move scratchpad
+bindsym $mod+parenright scratchpad show
