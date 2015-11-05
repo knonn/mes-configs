@@ -1,5 +1,10 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/home/knonn/.oh-my-zsh
+fpath=( ~/.zsh $fpath )
+export LC_ALL=fr_FR.UTF-8
+
+#Fix Meteor Exit code 1
+export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -80,10 +85,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias apt-update="sudo apt-get update"
 alias apt-upgrade="sudo apt-get upgrade"
-alias screenshot="ksnapshot"
 alias l="ls -lhG"
 alias cda="cd .."
-alias power-manager="xfce4-power-manager-settings"
 alias lsa="ls -a"
 alias docperso="cat ~/Documents/docperso"
 alias findtmp="find ~/ -name '*~'"
@@ -91,24 +94,24 @@ alias cleartmp="find ~/ -name '*~' -print0 | xargs -0 rm"
 alias sufindtmp="sudo find ~/ -name '*~'"
 alias sucleartmp="sudo find ~/ -name '*~' -print0 | xargs -0 rm"
 alias calendrier="orage"
-alias sfkgaming="ssh knonn@sfkgaming.fr -p 6969"
-alias pdfview="evince"
+alias serv="ssh knonn@traudchop.mooo.com -p 6969"
 alias reboot="sudo systemctl reboot"
-alias wincpp="i586-mingw32msvc-g++"
-alias winc="i586-mingw32msvc-gcc"
-alias e="emacs24"
 alias lpi="ssh pi@192.168.1.21 -p 6969"
 alias pi="ssh pi@knonn.flnet.org -p 6969"
 alias df="df -h"
-alias e="emacs"
 alias dfh="df -h"
-alias win='VBoxManage startvm "Windows 7"'
-alias ubuntu='VBoxManage startvm "Ubuntu server"'
 alias newtex="~/texmf/tex/latex/knonn/create_latex_project -e"
 alias latexclear="rm *.log | rm *.aux | rm *.toc"
 alias uuid="sudo blkid"
-alias pcoff="sudo shutdown -h now"
+alias pcoff="sudo ~/Documents/dev/pcoff.sh"
 alias inst="sudo dpkg -i"
 alias pcm="pcmanfm ./&"
 alias mvworkspace="~/Documents/dev/move-workspace.sh"
 alias nscreen="~/Documents/dev/newscreen.sh"
+alias stimeline="t stream timeline"
+alias tw="t update"
+alias timeline="t timeline -l -r"
+alias rc="sudo sh ~/Documents/dev/mount_lycee.sh m"
+alias irssi="screen irssi"
+alias urc="sudo sh ~/Documents/dev/mount_lycee.sh u"
+alias new_docker="~/Documents/dev/docker_connect.sh"

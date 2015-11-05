@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[padding-right: ${1:1}${2:px};$0]]></content>
-    <description>padding-right</description>
-    <scope>source.css</scope>
-    <tabTrigger>pr</tabTrigger>
-</snippet>

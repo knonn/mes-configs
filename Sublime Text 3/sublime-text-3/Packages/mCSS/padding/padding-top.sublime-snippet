@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[padding-top: ${1:1}${2:px};$0]]></content>
-    <description>padding-top</description>
-    <scope>source.css</scope>
-    <tabTrigger>pt</tabTrigger>
-</snippet>
