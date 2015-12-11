@@ -1,172 +1,110 @@
-" An example for a vimrc file.
-"
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last change:	2008 Dec 17
-"
-" To use it, copy it to
-"     for Unix and OS/2:  ~/.vimrc
-"	      for Amiga:  s:.vimrc
-"  for MS-DOS and Win32:  $VIM\_vimrc
-"	    for OpenVMS:  sys$login:.vimrc
+" Basic editor stuff
+syntax on
+set number          " show line numbers
+set nofoldenable    " disable folding
+set nowrap
+set modelines=1
+set sidescroll=1    " horizontal scrolling by character
+set shell=bash
 
-" When started as "evim", evim.vim will already have done these settings.
-if v:progname =~? "evim"
-  finish
-endif
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-" Use Vim settings, rather than Vi settings (much better!).
-" This must be first, because it changes other options as a side effect.
-set nocp
+" Vundle stuff
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-" allow backspacing over everything in insert mode
-set backspace=indent,eol,start
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
 
-if has("vms")
-  set nobackup		" do not keep a backup file, use versions instead
-else
-  set backup		" keep a backup file
-endif
-set history=50		" keep 50 lines of command line history
-set ruler		" show the cursor position all the time
-set showcmd		" display incomplete commands
-set incsearch		" do incremental searching
+" The following are examples of different formats supported.
+" Keep Plugin commands between vundle#begin/end.
+" plugin from http://vim-scripts.org/vim/scripts.html
+Plugin 'L9'
+" Git plugin not hosted on GitHub
+Plugin 'git://git.wincent.com/command-t.git'
+" git repos on your local machine (i.e. when working on your own plugin)
+Plugin 'file:///home/gmarik/path/to/plugin'
+" The sparkup vim script is in a subdirectory of this repo called vim.
+" Pass the path to set the runtimepath properly.
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" Avoid a name conflict with L9
+Plugin 'user/L9', {'name': 'newL9'}
 
-" For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
-" let &guioptions = substitute(&guioptions, "t", "", "g")
+" Airline instead of powerline, simple yet great
+Plugin 'bling/vim-airline'
+Plugin 'majutsushi/tagbar'
 
-" Don't use Ex mode, use Q for formatting
-map Q gq
+" Autocompletion engine
+" Plugin 'ervandew/supertab'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
-" CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
-" so that you can undo CTRL-U after inserting a line break.
-inoremap <C-U> <C-G>u<C-U>
+" Browsing files & fuzzy file search
+Plugin 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim'
 
-" In many terminal emulators the mouse works just fine, thus enable it.
-if has('mouse')
-  set mouse=a
-endif
+" PEP-8 compliance help
+Plugin 'nvie/vim-flake8'
+" Plugin 'klen/python-mode'
 
-" Switch syntax highlighting on, when the terminal has colors
-" Also switch on highlighting the last used search pattern.
-if &t_Co > 2 || has("gui_running")
-  syntax on
-  set hlsearch
-endif
+" Golang usage
+Plugin 'fatih/vim-go'
 
-" Only do this part when compiled with support for autocommands.
-if has("autocmd")
+" DVCS : Git, gitgutter for showing the changes beside line numbers
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
 
-  " Enable file type detection.
-  " Use the default filetype settings, so that mail gets 'tw' set to 72,
-  " 'cindent' is on in C files, etc.
-  " Also load indent files, to automatically do language-dependent indenting.
-  filetype plugin indent on
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
 
-  " Put these in an autocmd group, so that we can delete them easily.
-  augroup vimrcEx
-  au!
+" Set encoding
+set encoding=utf-8
 
-  " For all text files set 'textwidth' to 78 characters.
-  autocmd FileType text setlocal textwidth=78
+" Airline Hacks
+set laststatus=2                              " without this the status line is not visible
+set ttimeoutlen=50                            " to prevent delay when leaving insert mode
+let g:airline#extensions#tabline#enabled = 1  " it is disabled by default, so
+let g:airline_powerline_fonts=1               " using patched Inconsolata
+let g:airline_theme='powerlineish'            " favourite theme
+let g:rehash256=1
 
-  " When editing a file, always jump to the last known cursor position.
-  " Don't do it when the position is invalid or when inside an event handler
-  " (happens when dropping a file on gvim).
-  " Also don't do it when the mark is in the first line, that is the default
-  " position when opening a file.
-  autocmd BufReadPost *
-    \ if line("'\"") > 1 && line("'\"") <= line("$") |
-    \   exe "normal! g`\"" |
-    \ endif
+" Colorscheme
+let g:molokai_original=1
+colorscheme molokai
 
-  augroup END
+" OSX hacks
+set backspace=start,eol,indent
 
-else
+" Search customisations
+set hlsearch incsearch ignorecase " highlight search, incremental search and ignore case
+" double escape for removing search highlights
+nnoremap <silent> <Esc><Esc> :let @/=""<CR>
 
-  
-endif " has("autocmd")
+" python hacks
+autocmd Filetype python set expandtab tabstop=4 shiftwidth=4 softtabstop=4
+autocmd BufWritePre * :%s/\s\+$//e
 
-" Convenient command to see the difference between the current buffer and the
-" file it was loaded from, thus the changes you made.
-" Only define it when not defined already.
-if !exists(":DiffOrig")
-  command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
-		  \ | wincmd p | diffthis
-endif
+" Backup locations
+set backup
+set backupdir=~/.vim/backup
+set directory=/tmp
 
-" set cindent " always set autoindenting on
-set autoindent
-set smartindent
-set smarttab
-set expandtab
-set showmatch
-set tabstop=4
-set shiftwidth=4
+" Splitfu
+" Just navigate around splits vim way
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
-set wrap
-set showmode
-set number
-set ignorecase
+" keymaps
 
-set background=dark
-set backupdir=~/.vimtmp,.
-set directory=~/.vimtmp,.
+" ycm
+let g:ycm_key_list_select_completion=['<Tab>', '<Down>']
+let g:ycm_key_list_previous_completion=['<S-Tab>', '<Up>']
 
-" Mapping
-nnoremap <C-a>		:tabnext<CR>
-nnoremap <C-t>		:tabnew<CR>
-
-inoremap {			{}<Left>
-inoremap {<CR>		{<CR>}<Esc>O
-inoremap {{			{
-inoremap {}			{}
-
-inoremap (			()<Left>
-inoremap (<CR>		(<CR>)<Esc>O
-inoremap ((			(
-inoremap ()			()
-
-inoremap [			[]<Left>
-inoremap [<CR>		[<CR>]<Esc>O
-inoremap [[			[
-inoremap []			[]
-
-inoremap "			""<Left>
-inoremap ""			"
-
-inoremap '			''<Left>
-inoremap ''			'
-
-" prérequis tags
-set nocp
-filetype plugin indent on
-"
-" " configure tags - add additional tags here or comment out not-used ones
-set tags+=~/.vim/tags/stl
-set tags+=~/.vim/tags/gl
-set tags+=~/.vim/tags/sdl
-set tags+=~/.vim/tags/qt4
-"
-" " build tags of your own project with CTRL+F12
-" "map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
-noremap <F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
-inoremap <F12> <Esc>:!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
-"
-" " OmniCppComplete
-let OmniCpp_NamespaceSearch = 1
-let OmniCpp_GlobalScopeSearch = 1
-let OmniCpp_ShowAccess = 1
-let OmniCpp_MayCompleteDot = 1
-let OmniCpp_MayCompleteArrow = 1
-let OmniCpp_MayCompleteScope = 1
-let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
-"
-" " automatically open and close the popup menu / preview window
-au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
-set completeopt=menuone,menu,longest,preview"""""]"""""
-
-map <F7> mzgg=G`z<CR>
-
-autocmd bufnewfile *.cpp so /home/romain/Documents/headers/header_cpp.txt 
-autocmd bufnewfile *.cs so /home/romain/Documents/headers/header_cs.txt
-autocmd bufnewfile *.py so /home/romain/Documents/headers/header_py.txt
+" UltiSnips stuff
+let g:UltiSnipsExpandTrigger="<c-j>"

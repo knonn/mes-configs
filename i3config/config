@@ -12,10 +12,8 @@
 set $mod Mod4
 
 # font for window titles. ISO 10646 = Unicode
-#font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-# font pango:DejaVu Sans Mono, Terminus 9
-#font pango:Ubuntu, Light 8
-font pango:DejaVu Sans Mono 8
+#font pango: Monospace 8
+font -misc-fixed-medium-r-normal--10-100-75-75-C-60-iso10646-1
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -31,8 +29,8 @@ bindsym $mod+Return exec terminator
 bindsym $mod+Shift+A kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec j4-dmenu-desktop
-#bindsym $mod+d exec dmenu_run
+#bindsym $mod+d exec j4-dmenu-desktop
+bindsym $mod+d exec dmenu_run -i -p 'custom i3' -fn 'Ubuntu Mono:bold:pixelsize=15' -nb '#fdf6e3' -nf '#586c75' -sf '#fdf6e3' -sb '#b58900'
 
 # change focus
 #bindsym $mod+j focus left
@@ -122,7 +120,7 @@ bindsym $mod+Shift+C reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+R restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+E exitE
+#bindsym $mod+Shift+E exitE
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -151,10 +149,15 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Appearance
-client.focused	    		#111111 #87CEFA #000000 #000000
-client.focused_inactive		#111111 #333333 #999999 #484e50
-client.unfocused        #333333 #424242 #888888 #292d2e
-client.urgent           #C10004 #900000 #ffffff #900000
+#client.focused	    		#000000	#83a598	#000000	#2e9ef4
+#client.focused_inactive		#000000	#7c6f64	#83a598	#2e9ef4
+#client.unfocused		#000000	#504945	#c1c1c1	#484e50
+#client.urgent			#000000 #900000 #c1c1c1 #900000
+#client.background		#1f1f1f
+
+#GROOLOT
+client.focused          #111111 #AFD700 #000000 #000000
+client.focused_inactive #111111 #3F6700 #ffffff #484e50
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -164,31 +167,62 @@ bar {
     	#modifier Mod1
         status_command i3status --config ~/.i3status.conf
 	colors {
-		background #232323
-		statusline #DCDCDC
-		separator #666666
-		focused_workspace #111111 #87CEFA #000000
-		active_workspace #333333 #5f676a #ffffff
-		inactive_workspace #333333 #222222 #888888
-		urgent_workspace #2f343a #900000 #ffffff
+		background	#000000
+		statusline	#ffffff
+		separator	#666666
+		#focused_workspace	#928374	#928374	#000000
+		#inactive_workspace	#504945	#504945	#000000
+		#urgent_workspace	#900000	#900000	#000000
+		
+		#GROOLOT
+		focused_workspace  #4c7899 #285577 #ffffff
+	        active_workspace   #333333 #5f676a #ffffff
+        	inactive_workspace #333333 #222222 #888888
+	        urgent_workspace   #2f343a #900000 #ffffff
+
 	}
 }
 
 # Kill service notify
 exec --no-startup-id killall -q fsnotify_mark
 
+# Custom modes
+mode "Exit | Reboot | Hibernate | Poweroff" {
+	bindsym e exit
+	bindsym r exec systemctl reboot
+	bindsym h exec systemctl hibernate
+	bindsym p exec systemctl poweroff
+
+	# back to normal: Enter or escape
+	bindsym Return mode "default"
+	bindsym Escape mode "default"
+}
+bindsym $mod+shift+e mode "Exit | Reboot | Hibernate | Poweroff"
+
+mode "New Screen | Disable Screen" {
+	bindsym n mode "default" ; exec terminator -x ~/Documents/dev/newscreen.sh n
+	bindsym d mode "default" ; exec terminator -x ~/Documents/dev/newscreen.sh off
+
+	# back to normal: Enter or escape
+	bindsym Return mode "default"
+	bindsym Escape mode "default"
+}
+bindsym XF86Display mode "New Screen | Disable Screen"
+
 # Demarrage
-exec --no-startup-id nm-applet
+#exec --no-startup-id nm-applet
 exec --no-startup-id xsetroot -solid "#000000"
 exec --no-startup-id /usr/bin/xset b off s off -dpms
 exec --no-startup-id seafile-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id compton
 exec --no-startup-id dunst -config ~/.config/dunst/dunst.conf
-#exec --no-startup-id gnome-settings-daemon
+
+# Close opened up windows at startup
+exec --no-startup-id sh -c "sleep 3; i3-msg 'focus parent, focus parent, kill'"
 
 # Wallpaper
-exec --no-startup-id feh --bg-scale ~/Documents/images/geek.jpg
+exec --no-startup-id feh --bg-scale ~/Documents/images/red_blue.jpg
 
 # Start terminal on workspace 2, then focus workspace 1
 #exec --no-startup-id i3-msg 'workspace 9: VPN; exec terminator; workspace 1'
@@ -197,14 +231,17 @@ exec --no-startup-id feh --bg-scale ~/Documents/images/geek.jpg
 
 # Enable auto back and forth
 workspace_auto_back_and_forth yes
+new_float 1pixel
+hide_edge_borders both
+
+# Auto float mode
+for_window [class="PacketTracer6" title="^(?!(Cisco Packet Tracer|PT Activity))"] floating enable
 
 # bind persos
 bindsym $mod+i exec iceweasel
-bindsym $mod+n exec /usr/bin/nautilus
+bindsym $mod+n exec /usr/bin/pcmanfm
 bindsym $mod+l exec i3lock --color=111111 --nofork
 bindsym $mod+b border toggle
-bindsym XF86Display exec terminator -x ~/Documents/dev/newscreen.sh n
 bindsym Print exec /usr/bin/gnome-screenshot --interactive
-bindsym $mod+m exec terminator -x ~/Documents/dev/newscreen.sh off
 bindsym $mod+Shift+parenright move scratchpad
 bindsym $mod+parenright scratchpad show
