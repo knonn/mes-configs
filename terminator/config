@@ -24,7 +24,7 @@
     scrollback_infinite = True
   [[custom]]
     scrollbar_position = hidden
-    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000cd:#cd00cd:#00cdcd:#faebd7:#000211:#ff0000:#00ff00:#c7b208:#0000ff:#a500a5:#00ffff:#1e1e1e"
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000cd:#cd00cd:#00cdcd:#faebd7:#000211:#ff0000:#00ff00:#c7b208:#0404ce:#a500a5:#00ffff:#1e1e1e"
     background_image = None
     use_system_font = False
     cursor_color = "#232323"
