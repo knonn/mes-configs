@@ -37,6 +37,13 @@ zstyle ':prezto:load' pmodule \
   'ssh'
 
 #
+# Autosuggestions
+#
+
+# Set the query found color.
+zstyle ':prezto:module:autosuggestions:color' found ''
+
+#
 # Editor
 #
 
@@ -65,7 +72,7 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 #
 
 # Set the query found color.
-# zstyle ':prezto:module:history-substring-search:color' found ''
+ zstyle ':prezto:module:history-substring-search:color' found ''
 
 # Set the query not found color.
 # zstyle ':prezto:module:history-substring-search:color' not-found ''
@@ -123,6 +130,7 @@ zstyle ':prezto:module:prompt' theme 'sorin'
 #   'main' \
 #   'brackets' \
 #   'pattern' \
+#   'line' \
 #   'cursor' \
 #   'root'
 #

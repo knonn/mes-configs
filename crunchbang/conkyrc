@@ -73,8 +73,8 @@ ${goto 6}${voffset 4}${font conkycolors:size=16}u${font}${voffset -4}${goto 32}C
 ${goto 6}${voffset 4}${font conkycolors:size=16}n${font}${voffset -4}${goto 32}CPU3: ${cpu cpu3}%${alignr}CPU4: ${cpu cpu4}%
 
 CPU Temperatures ${hr 2}
-${goto 6}${voffset 4}${font conkycolors:size=16}c${font}${voffset -4}${goto 32}Core0:${alignr}${color #FCAF3E}${execi 30 sensors | grep 'Core 0' | awk '{print $3}' | sed 's/+//' | sed 's/\.0//g'} °C$color
-${goto 6}${voffset 4}${font conkycolors:size=16}h${font}${voffset -4}${goto 32}Core1:${alignr}${color #FCAF3E}${execi 30 sensors | grep 'Core 1' | awk '{print $3}' | sed 's/+//' | sed 's/\.0//g'} °C$color
+${goto 6}${voffset 4}${font conkycolors:size=16}c${font}${voffset -4}${goto 32}Core0:${alignr}${color #FCAF3E}${execi 30 sensors | grep 'Core 0' | awk '{print $3}' | sed 's/+//' | sed 's/\.0//g'}$color
+${goto 6}${voffset 4}${font conkycolors:size=16}h${font}${voffset -4}${goto 32}Core1:${alignr}${color #FCAF3E}${execi 30 sensors | grep 'Core 1' | awk '{print $3}' | sed 's/+//' | sed 's/\.0//g'}$color
 #${goto 6}${voffset 4}${font conkycolors:size=16}c${font}${voffset -4}${goto 32}Core2:${alignr}${color #FCAF3E}${execi 30 sensors | grep 'Core 2' | awk '{print $3}' | sed 's/+//' | sed 's/\.0//g'} °C$color
 #${goto 6}${voffset 4}${font conkycolors:size=16}c${font}${voffset -4}${goto 32}Core3:${alignr}${color #FCAF3E}${execi 30 sensors | grep 'Core 3' | awk '{print $3}' | sed 's/+//' | sed 's/\.0//g'} °C$color
 
@@ -122,19 +122,19 @@ ${voffset 4}${font conkycolors:size=13}${font}${goto 32}${voffset -8}Local IP: $
 
 # |--eth0
 ${else}${if_up eth0}
-${voffset -13}${font conkycolors:size=14}x${font}${goto 32}${voffset -6}Up: ${upspeed eth0}${font} ${alignr}${upspeedgraph eth0 8,60 F57900 FCAF3E}
+${voffset -13}${font conkycolors:size=14}n${font}${goto 32}${voffset -6}Up: ${upspeed eth0}${font} ${alignr}${upspeedgraph eth0 8,60 F57900 FCAF3E}
 ${goto 32}Total: ${totalup eth0}
 ${voffset -2}${font conkycolors:size=14}u${font}${goto 32}${voffset -6}Down: ${downspeed eth0}${font} ${alignr}${downspeedgraph eth0 8,60 F57900 FCAF3E}
 ${goto 32}Total: ${totaldown eth0}
-${voffset -2}${font conkycolors:size=13}A${font}${goto 32}${voffset -4}Local IP: ${alignr}${addr eth0}
+${voffset -2}${font conkycolors:size=13}x${font}${goto 32}${voffset -4}Local IP: ${alignr}${addr eth0}
 
 # |--PPP0
 ${endif}${else}${if_up ppp0}
-${voffset -13}${font conkycolors Solid:size=14}q${font}${goto 32}${voffset -6}Up: ${upspeed ppp0}${font} ${alignr}${upspeedgraph ppp0 8,60 F57900 FCAF3E}
+${voffset -13}${font conkycolors Solid:size=14}n${font}${goto 32}${voffset -6}Up: ${upspeed ppp0}${font} ${alignr}${upspeedgraph ppp0 8,60 F57900 FCAF3E}
 ${goto 32}Total: ${totalup ppp0}
-${voffset -2}${font conkycolors Solid:size=14}Q${font}${goto 32}${voffset -6}Down: ${downspeed ppp0}${font} ${alignr}${downspeedgraph ppp0 8,60 F57900 FCAF3E}
+${voffset -2}${font conkycolors Solid:size=14}u${font}${goto 32}${voffset -6}Down: ${downspeed ppp0}${font} ${alignr}${downspeedgraph ppp0 8,60 F57900 FCAF3E}
 
 ${goto 32}Total: ${totaldown ppp0}
-${voffset -2}${font Poky:size=13}w${font}${goto 32}${voffset -4}Local IP: ${alignr}${addr ppp0}
+${voffset -2}${font Poky:size=13}x${font}${goto 32}${voffset -4}Local IP: ${alignr}${addr ppp0}
 ${endif}${else}${voffset 4}${font PizzaDude Bullets:size=12}4${font}${goto 32}Network Unavailable${endif}${endif}
 ${hr 2}
