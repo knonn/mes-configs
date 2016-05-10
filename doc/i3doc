@@ -1,0 +1,92 @@
+
+// I3
+
+// Gérer les bureaux
+$mod+numéro = changer de bureau
+
+// Gérer les fenetres
+$mod+shift+space = float windows
+$mod+shift+numéro = bouger la fenêtre de bureau
+$mod+f = plein écran
+$mod+shift+A = kill window
+$mod+z = fenetre en mode tab
+$mod+e = fenetre en mode normal
+$mod+s = fenetre en mode cascade
+
+// Gérer les terminaux
+$mod+v = ouvrir des terminaux verticalement
+$mod+h = ouvrir des terminaux horizontalement
+$mod+shift+k = bouger le terminal dans l'autre sens
+$mod+shift+j = bouger le termina dans l'autre sens
+
+// Applications
+$mod+d = ouvre le alt f2
+pidof nom-appli = trouve le PID d'une application lancée
+kill -15 PID
+kill -9 PID = fermer une application par son PID
+sudo aptitude keep-all = remove tous les paquets de autoremove
+
+
+// Systeme
+$mod+shift+e = log out
+
+
+// FLASHPLAYER
+Aller sur le site en marque page
+chemin flashplayer : /usr/lib/pepperflashplugin-nonfree/
+Copier le fichire pepflashplayer.so
+
+// Graver CD
+Brasero ou commande burn
+
+// Ajouter logiciel menu
+lien : ~/.local/share/applications/ 
+créer fichier nomlogiciel.desktop
+
+code :
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec=/usr/local/lien vers logiciel
+Name=nomlogiciel
+Comment=commentaire
+
+reload menu = update-menus
+
+// Visionneur PDF
+evince
+
+// Duplication écran
+xrandr -q
+xrandr --output VGA1 --mode 1024x768
+xrandr --output VGA1 --mode 1024x768 --right-of LVDS1
+xrandr --output VGA1 --off
+
+// DDOS
+send(IP(dst="172.16.100.115")/"Fuck you remy", loop=1)
+<<<<<<< HEAD
+sendp(Ether(src="11:22:33:44:55:66)/IP(src="source", dst="dest")/"message", loop=1)
+
+// Nettoyage
+sudo bleachbit
+
+// Reset file and folders
+sudo find . -type d -print0 | xargs -0 chmod 0755
+sudo find . -type f -print0 | xargs -0 chmod 0644
+
+// fix tearing Intel
+sudo service gdm3 stop
+cd /etc/X11
+Xorg -configure
+mkdir xorg.conf.d
+cd xorg.conf.d
+sudo nano 20-intel.conf
+
+Mettre :
+Section "Device"
+	Identifier "Intel Graphics"
+	Driver "Intel"
+	Option "AccelMethod" "sna"
+	Option "TearFree" "True"
+EndSection

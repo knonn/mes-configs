@@ -1,0 +1,83 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+autoload -Uz promptinit
+promptinit
+prompt cloud '#kdev' black black
+#prompt redhat
+
+# Customize to your needs...
+export _JAVA_OPTIONS="-Dswing.aatext=true -Dawt.useSystemAAFontSettings=on"
+
+# Update Prezto
+alias prezto_update="~/documents/dev/prezto_update.sh"
+
+#
+# Aliases
+#
+
+# APT
+alias apt-update="sudo apt-get update"
+alias apt-upgrade="sudo apt-get upgrade"
+
+# Dirs
+alias l="ls -lhG"
+alias cda="cd .."
+alias lsa="ls -a"
+alias doc="cd ~/documents"
+alias tel="cd ~/downloads"
+
+alias docperso="cat ~/documents/docperso"
+
+# TMP
+alias findtmp="find ~/ -name '*~'"
+alias cleartmp="find ~/ -name '*~' -print0 | xargs -0 rm"
+alias sufindtmp="sudo find ~/ -name '*~'"
+alias sucleartmp="sudo find ~/ -name '*~' -print0 | xargs -0 rm"
+
+# SSH Servers
+alias soimeme="ssh knonn@176.31.245.148 -p 3741"
+alias lpi="ssh pi@192.168.1.10 -p 6969"
+alias pi="ssh pi@knonn.flnet.org -p 6969"
+
+# HDD
+alias df="df -h"
+alias uuid="sudo blkid"
+
+# LaTeX
+alias newtex="~/texmf/tex/latex/knonn/create_latex_project -e"
+alias newtexdiapo="~/texmf/tex/latex/knonn/create_diapo_project"
+alias latexclear="rm *.log | rm *.aux | rm *.toc"
+alias makeglo="~/texmf/tex/latex/knonn/makeglo.sh"
+alias makepdf="~/texmf/tex/latex/knonn/makepdf.sh"
+alias newglo="~/texmf/tex/latex/knonn/newglo.sh"
+
+# DPKG
+alias inst="sudo dpkg -i"
+alias dpkgclean='sudo dpkg --purge `dpkg --get-selections | grep deinstall | cut -f1`'
+
+# Mount Lycee
+alias rc="sudo /usr/local/bin/mount_lycee m"
+alias urc="sudo /usr/local/bin/mount_lycee u"
+
+# Docker
+alias start_docker="sudo /usr/local/bin/start_docker"
+
+# Local web server
+alias startweb="sudo service apache2 start && sudo service mysql start"
+alias stopweb="sudo service apache2 stop && sudo service mysql stop"
+
+# New screen
+alias arandr="~/documents/dev/newscreen.sh"
+
+# Anti Rootkits
+alias rkscan="sudo rkhunter -c --rwo"
