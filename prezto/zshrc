@@ -36,18 +36,11 @@ alias lsa="ls -a"
 alias doc="cd ~/documents"
 alias tel="cd ~/downloads"
 
-alias docperso="cat ~/documents/docperso"
-
 # TMP
 alias findtmp="find ~/ -name '*~'"
 alias cleartmp="find ~/ -name '*~' -print0 | xargs -0 rm"
 alias sufindtmp="sudo find ~/ -name '*~'"
 alias sucleartmp="sudo find ~/ -name '*~' -print0 | xargs -0 rm"
-
-# SSH Servers
-alias soimeme="ssh knonn@176.31.245.148 -p 3741"
-alias lpi="ssh pi@192.168.1.10 -p 6969"
-alias pi="ssh pi@knonn.flnet.org -p 6969"
 
 # HDD
 alias df="df -h"
